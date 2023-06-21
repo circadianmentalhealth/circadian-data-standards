@@ -6,9 +6,10 @@ It has been conceived as part of the MRC funded [Circadian Mental Health Network
 
 We are still in the initial stage of this project and we would greatly appreciate your feedback, comments, or suggestions for the proposed work. 
 Please use GitHub [issues](https://github.com/circadianmentalhealth/circadian-data-standards/issues) to share your thoughts. We have already created a few entries to initiate discussions about our approach and proposed work.  
-- i1
-- i2
-- i3
+- [Using templates for dataset descriptions](https://github.com/circadianmentalhealth/circadian-data-standards/issues/1)
+- [Multiple templates](https://github.com/circadianmentalhealth/circadian-data-standards/issues/2)
+- [Prioritize actions](https://github.com/circadianmentalhealth/circadian-data-standards/issues/3)
+- [Examples of published but not avialable (raw)data](https://github.com/circadianmentalhealth/circadian-data-standards/issues/4)
 
 Feel free to add your own comments or start a new thread.
 
