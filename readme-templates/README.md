@@ -10,16 +10,16 @@ for example:
 * title : Effect of chronotype on localization
 * authors: John Smith, Su Key, Fiona Arias
 * description: 
-Activity of fruit flies of different chronotypes: WT (control), ELF3 (early birds), BAM (night owls)  
-was monitored using video tracking software. Flies were monitored under cyclic light conditions:  
-normal LD12:12, short days LD6:18 and long days LD18:6. 
+Activity of fruit flies of 4 genotypes: WT, CRY, GAL4, KIR was monitored using video tracking software.  
+The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
+Flies were entrained and monitored under cyclic light conditions: normal LD12:12, short days LD6:18 and long days LD18:6. 
 * start date: 25.06.2023
 
 the keys values are:
 * `title` is a key and its value is the text *"Effect of chronotype on localization"*
 * `authors` is a key and its value is a list of 3 names
 * `description` is a key and its value is multine string
-* `start date` is a key and its value is the date 5th June 2023
+* `start date` is a key and its value is the date 25th June 2023
 
 At this stage of the standardization project we do not know all the relevant keys for the data descriptions.
 For that reason we propose a format which can be automatically parsed into key-values without specifying what the keys are.
@@ -49,14 +49,18 @@ At the same time the documents are easily readable as plain text, with clear sep
 The example above could be encoded using the proposed format as:
 ```
 # Title: Effect of chronotype on localization
+
 # Authors 
 - John Smith
 - Su Key
 - Fiona Arias
-## Description: 
-Activity of fruit flies of different chronotypes: WT (control), ELF3 (early birds), BAM (night owls)  
-was monitored using video tracking software. Flies were monitored under cyclic light conditions:  
-normal LD12:12, short days LD6:18 and long days LD18:6. 
+
+## Description 
+Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
+The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
+Flies were entrained and monitored under cyclic light conditions: 
+normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
+
 ## Start date: 2023-06-25
 > Dates should be in the ISO format YYYY-MM-DD
 ```
@@ -68,10 +72,11 @@ Which is rendered as (for example if you see this file in github):
 - John Smith
 - Su Key
 - Fiona Arias
-## Description: 
-Activity of fruit flies of different chronotypes: WT (control), ELF3 (early birds), BAM (night owls)  
-was monitored using video tracking software. Flies were monitored under cyclic light conditions:  
-normal LD12:12, short days LD6:18 and long days LD18:6. 
+## Description 
+Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
+The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
+Flies were entrained and monitored under cyclic light conditions: 
+normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
 ## Start date: 2023-06-25
 > Dates should be in the ISO format YYYY-MM-DD
 
