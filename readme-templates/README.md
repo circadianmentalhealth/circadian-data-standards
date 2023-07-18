@@ -48,36 +48,36 @@ At the same time the documents are easily readable as plain text, with clear sep
 
 The example above could be encoded using the proposed format as:
 ```
-# Title: Effect of chronotype on localization
+## Title: Effect of chronotype on localization
 
-# Authors 
+### Authors 
 - John Smith
 - Su Key
 - Fiona Arias
 
-## Description 
+### Description 
 Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
 The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
 Flies were entrained and monitored under cyclic light conditions: 
 normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
 
-## Start date: 2023-06-25
+### Start date: 2023-06-25
 > Dates should be in the ISO format YYYY-MM-DD
 ```
 
 Which is rendered as (for example if you see this file in github):
 
-# Title: Effect of chronotype on localization
-# Authors 
+## Title: Effect of chronotype on localization
+### Authors 
 - John Smith
 - Su Key
 - Fiona Arias
-## Description 
+### Description 
 Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
 The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
 Flies were entrained and monitored under cyclic light conditions: 
 normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
-## Start date: 2023-06-25
+### Start date: 2023-06-25
 > Dates should be in the ISO format YYYY-MM-DD
 
 
