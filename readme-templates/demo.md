@@ -3,7 +3,7 @@
 
 ### Description 
 Activity of fruit flies of 5 genotypes: **WT, Tim/+, Tim>Kir, Kir/+, Tim0** was monitored using video tracking software.  
-The selected genotypes were supposed to mimic various chronotypes: control, arrhythmic, early birds and night olws.  
+The selected genotypes were supposed to mimic various chronotypes: control, arrhythmic, early birds and night owls.  
 Flies were entrained to **12h:12hr L:D** and then released into DD to measure circadian behaviour.. 
 
 ### Contributors
