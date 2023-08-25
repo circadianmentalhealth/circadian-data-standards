@@ -2,10 +2,9 @@
 > Descriptive title of your dataset.
 
 ### Description 
-Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
-The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
-Flies were entrained and monitored under cyclic light conditions: 
-normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
+Activity of fruit flies of 5 genotypes: **WT, Tim/+, Tim>Kir, Kir/+, Tim0** was monitored using video tracking software.  
+The selected genotypes were supposed to mimic various chronotypes: control, arrhythmic, early birds and night olws.  
+Flies were entrained to **12h:12hr L:D** and then released into DD to measure circadian behaviour.. 
 
 ### Contributors
 > Persons involved in the creation of the dataset.  
