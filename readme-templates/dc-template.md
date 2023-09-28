@@ -64,7 +64,7 @@
 
 ## Husbandry (Cultivation)
 > -> http://purl.bioontology.org/ontology/MESH/D000822  
-> the care and cultivation of test subject organisms before the experiment  
+> Care and cultivation of test subject organisms before the experiment  
 >
 Flies were maintained on a media of sucrose, yeast, molasses, and agar under 12:12 LD cycles at 25 °C. One- to 3-day-old female flies were separated and maintained on standard cornmeal-yeast medium under LD12:12 cycles at 25 °C for 4 nights before experiments began.  
 
