@@ -28,52 +28,30 @@
 --- students template starts ---
 --- propose sections Marked with # and their expected content ---
 --- rather than definitions list the aspects which should be captured in this section
---- For example, look at the Biosample section bellow, what other information should be provided
---- for fly experiments.
+--- For example, look at the COHORTS section bellow
 --- 
 --- There are suggestions of other sections, complete the recommended content, 
 --- and feel free to add your own sections
 
-## Biosample
-> Description of biological entity that was monitored / measured/ experimented on
-> Typical content will have information about:
-> Sample type: Whole fly / part / organ / cells / extracts....
-> In vivo / Ex vivo / In vitro
-> Age
-> Genetic info / Strains (what to include here) 
-> .....
+## COHORTS
+> Describe common characteristics withing groups of participants 
+> Typically include Demographics, Health Conditions, inclusion exclusion criteria
+CONTROL
+Shift workers aged 35-50 who have been shift workers for over 2 years
+Exclusion: chronic disease, sleep influencing medication
 
+GROUP1: Low light
+Shift workers aged 35-50 who have been shift workers for over 2 years
+Exclusion: chronic disease, sleep influencing medication
+Intervention: LOW-LIGHT
 
+GROUP2: Strong light
+...
 
-
-## Husbandry 
-> COMENTS WHAT TO PUT
-Example entry
-
-
-## Entrainment
+## INTERVENTIONS
+> What typically interventions description should contain
 >
-
-
-## Experiment design
-> What is crucial for circadian study with flies
-
-
-## Protocols
 >
-
-
-## Measurements
-
-### Measured data
-Activity
-
-### Measurement technique
-Infrared beam (TriKinetics)
-
-
-### Measured data
-RNA levels in R5 neurons
-
-## Measurement technique
-Fluorescence activated cell sorting and RNA-seq
+>
+LOW-LIGHT
+....
