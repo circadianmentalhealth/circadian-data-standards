@@ -1,83 +1,35 @@
-## Draft templates
+# General Information Folder
 
-README templates for datasets descriptions.
+This folder is specifically designed to offer essential instructions, templates, and checklists for crafting effective README files. 
+The resources included aim to enhance your understanding and ability to create detailed and helpful README documentation.
 
-## Format description
+## Optimal Use of This Folder
 
-In general, a metadata description of a dataset can be viewed as a collection of key-value pairs,
-for example:
+To make the best use of the resources in this folder, it is recommended to follow these structured steps:
 
-* title : Effect of chronotype on localization
-* authors: John Smith, Su Key, Fiona Arias
-* description: 
-Activity of fruit flies of 4 genotypes: WT, CRY, GAL4, KIR was monitored using video tracking software.  
-The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
-Flies were entrained and monitored under cyclic light conditions: normal LD12:12, short days LD6:18 and long days LD18:6. 
-* start date: 25.06.2023
+### 1. Introduction to README Files
+Begin by reading the document **"About README"**. This file provides general information about what README files are, their importance, and the role they play in software and data documentation.
+- [About README]
 
-the keys values are:
-* `title` is a key and its value is the text *"Effect of chronotype on localization"*
-* `authors` is a key and its value is a list of 3 names
-* `description` is a key and its value is multine string
-* `start date` is a key and its value is the date 25th June 2023
+### 2. Understanding General README Structure
+Next, proceed to the **"README - General Template"** which outlines the general structure that each README file should follow. This template serves as a guide to the key sections and information that should be included.
+- [README - General Template]
 
-At this stage of the standardization project we do not know all the relevant keys for the data descriptions.
-For that reason we propose a format which can be automatically parsed into key-values without specifying what the keys are.
+### 3. Checklist for README Content
+To ensure you cover all necessary parts of a comprehensive README, review and download the checklist from **"README Checklist"**. This checklist can be used as a reference to avoid missing crucial information.
+- [README Checklist]
 
-Rules:
-* Each key is marked with `#` sign(s) at the start of the line. 
-* The key name is the text between `#` sign(s) and end of the line or `:` sign if present
-* The key name is not case sensitive
-* The key value is composed from all the text after the key name up to the next key or end of file.  
-That means that if the key ends with `:` the key value can be recorded in the same line as the key,  
-otherwise the value starts in the new line. 
-* Lines that starts with `>` contain comments and are to be ignored
-* For the list of values, each value is recorded in separate line which starts with `-`
-* For increased readibility the keys-value pairs should be separated by an empty line  
-(ie there should be empty line before each `#` openning sign.
+### 4. Writing a README on GitHub
+Finally, familiarise yourself with the specifics of writing a README file directly on GitHub by examining **"README - GITHUB Writing Instruction"**. This document provides tailored guidance on formatting and composing READMEs using GitHub's features and Markdown syntax.
+- [README - GITHUB Writing Instruction]
 
-Parsing files that follow this convention is straightforward, but at the same time permits capture of multi line text values
-as well as list of values.
+## Navigation Tips
 
-This format is *markdown-friendly* in the sense that it can be pretty-printed rendered by markdown viewers.
-Each key will be rendered as a header. The key value will be rendered bellow the key or following it if the key ends with `:`.
-The list of values are rendered as lists. And the comments are shown as blockquotes, clearly distinguishing them from keys and values.
-Users familliar with markdown can still use the additional simple formatting available in markdown (like line breaks, italic and bold font).
+- **Sequential Reading:** It's recommended to read the documents in the order listed above to build a comprehensive understanding step-by-step.
+- **Direct Links:** Use the links provided to directly access and navigate through the documents. This ensures efficient use of time and easier learning.
 
-At the same time the documents are easily readable as plain text, with clear separation between keys and values.
+## Purpose of This Folder
 
-The example above could be encoded using the proposed format as:
-```
-## Title: Effect of chronotype on localization
+The primary goal of this folder is to equip developers, project managers, and researchers with the necessary tools and knowledge to create clear, informative, and engaging README files that effectively communicate the essentials of their projects or data sets.
 
-### Authors 
-- John Smith
-- Su Key
-- Fiona Arias
-
-### Description 
-Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
-The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
-Flies were entrained and monitored under cyclic light conditions: 
-normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
-
-### Start date: 2023-06-25
-> Dates should be in the ISO format YYYY-MM-DD
-```
-
-Which is rendered as (for example if you see this file in github):
-
-## Title: Effect of chronotype on localization
-### Authors 
-- John Smith
-- Su Key
-- Fiona Arias
-### Description 
-Activity of fruit flies of 4 genotypes: **WT, CRY, GAL4, KIR** was monitored using video tracking software.  
-The selected genotypes were supposed to mimic various chronotypes: control, arythmic, early birds and night olws.  
-Flies were entrained and monitored under cyclic light conditions: 
-normal **LD12:12**, short days **LD6:18** and long days **LD18:6**. 
-### Start date: 2023-06-25
-> Dates should be in the ISO format YYYY-MM-DD
-
-
+Thank you for taking the time to improve your skills in creating excellent READMEs. We hope these resources will assist you in your projects! -Bio_RDM Team
