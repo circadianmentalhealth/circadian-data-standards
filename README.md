@@ -47,8 +47,8 @@ Future plans for standardization include:
 
 ## Maintainers
 * Tomasz Zieliński - ORCID: [0000-0002-0194-5706](https://orcid.org/0000-0002-0194-5706)
-* Haya Deeb - ORCID: [0000-0002-7044-7321] (https://orcid.org/0000-0002-7044-7321)
-* Livia Scorza - ORCID: [0000-0002-0145-3592] (https://orcid.org/0000-0002-0145-3592)
+* Haya Deeb - ORCID: [0000-0002-7044-7321](https://orcid.org/0000-0002-7044-7321)
+* Livia Scorza - ORCID: [0000-0002-0145-3592](https://orcid.org/0000-0002-0145-3592)
 * Andrew Millar - ORCID: [0000-0003-1756-3654](https://orcid.org/0000-0003-1756-3654)
 * James Hodge - ORCID: [0000-0003-4741-2363](https://orcid.org/0000-0003-4741-2363)
 
