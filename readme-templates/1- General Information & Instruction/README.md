@@ -20,7 +20,7 @@ To ensure you cover all necessary parts of a comprehensive README, review and do
 - [README Checklist]
 
 ### 4. Writing a README on GitHub
-Finally, familiarize yourself with the specifics of writing a README file directly on GitHub by examining **"README - GITHUB Writing Instruction"**. This document provides tailored guidance on formatting and composing READMEs using GitHub's features and Markdown syntax.
+Finally, familiarise yourself with the specifics of writing a README file directly on GitHub by examining **"README - GITHUB Writing Instruction"**. This document provides tailored guidance on formatting and composing READMEs using GitHub's features and Markdown syntax.
 - [README - GITHUB Writing Instruction]
 
 ## Navigation Tips
