@@ -9,19 +9,19 @@ To make the best use of the resources in this folder, it is recommended to follo
 
 ### 1. Introduction to README Files
 Begin by reading the document **"About README"**. This file provides general information about what README files are, their importance, and the role they play in software and data documentation.
-- [About README]
+- [About README](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/About%20README.md)
 
 ### 2. Understanding General README Structure
 Next, proceed to the **"README - General Template"** which outlines the general structure that each README file should follow. This template serves as a guide to the key sections and information that should be included.
-- [README - General Template]
+- [README - General Template](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20-%20General%20Template.md)
 
 ### 3. Checklist for README Content
 To ensure you cover all necessary parts of a comprehensive README, review and download the checklist from **"README Checklist"**. This checklist can be used as a reference to avoid missing crucial information.
-- [README Checklist]
+- [README Checklist](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20Checklist.jpg)
 
 ### 4. Writing a README on GitHub
 Finally, familiarise yourself with the specifics of writing a README file directly on GitHub by examining **"README - GITHUB Writing Instruction"**. This document provides tailored guidance on formatting and composing READMEs using GitHub's features and Markdown syntax.
-- [README - GITHUB Writing Instruction]
+- [README - GITHUB Writing Instruction](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20-%20Github%20Writing%20Instruction.md)
 
 ## Navigation Tips
 
