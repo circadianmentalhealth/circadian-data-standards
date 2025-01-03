@@ -1,57 +1,66 @@
-# Title: Type in the title/name
-> A descriptive name given to the dataset.
+# README: Questionnaire and Survey Dataset
 
-## Date: YYYY-MM-DD
-> A point in time associated with the lifecycle of the dataset.  
-> Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g 2023-03-25)  
+## General Information
 
-## Purpose (Research Hypothesis)
-> The overall rationale, reason, or intention for conducting a study that resulted in the the data set.   
-> Or the hypothesis that a study sets out to support (or disprove);
+- **Summary/Abstract**  
+  Briefly describe the dataset and its focus, such as the type of survey, target population, and key research questions (e.g., "Sleep Quality Survey in Adolescents").
 
-## Abstract
-> A summary of the content of the dataset.  
-> Should include a brief information about the biological material, technique used
-> and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections bellow, here, 
-> we expect a short description that helps to understand the content of the dataset without its thorough examination.
+- **Purpose/Objective**  
+  Explain why the survey was conducted and its intended research or clinical use.
 
-## Contributors
-> List of persons making contribution to the creation of the dataset.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful
+- **Title of Dataset**  
+  Provide the dataset name (e.g., "Sleep Patterns and Mental Health Survey, 2023").
 
---- students template starts ---
---- propose sections Marked with # and their expected content ---
---- rather than definitions list the aspects which should be captured in this section
---- For example, look at the COHORTS section bellow
---- 
---- There are suggestions of other sections, complete the recommended content, 
---- and feel free to add your own sections
+- **Author(s)/Contributor(s)**  
+  Include names, affiliations, and contact information of contributors.
 
-## COHORTS
-> Describe common characteristics withing groups of participants 
-> Typically include Demographics, Health Conditions, inclusion exclusion criteria
-CONTROL
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
+- **Date of Creation/Release**  
+  Specify when the survey data was collected and released.
 
-GROUP1: Low light
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
-Intervention: LOW-LIGHT
+- **Funding Information**  
+  Include grant details or funding sources.
 
-GROUP2: Strong light
-...
+---
 
-## INTERVENTIONS
-> What typically interventions description should contain
->
->
->
-LOW-LIGHT
-....
+## Dataset Overview
+
+- **Survey Details**  
+  - Name and version of the survey instrument used (e.g., "Pittsburgh Sleep Quality Index, v2").
+  - Description of survey structure (e.g., number of questions, type of response scales).
+  - Validation references for the survey tool.
+
+- **Participant Information**  
+  - Recruitment method (e.g., random sampling, convenience sampling).  
+  - Demographics of the participants (e.g., age range, gender distribution).
+
+- **Data Dictionary**  
+  Provide a table describing variables (e.g., question text, response options, and scoring).
+
+---
+
+## Methodology
+
+- **Survey Administration**  
+  Describe how the survey was conducted (e.g., online, paper-based).
+
+- **Data Processing**  
+  Explain steps taken to clean or preprocess the survey responses.
+
+- **Ethical Considerations**  
+  Mention IRB approvals and consent procedures.
+
+---
+  
+## Usage and Access
+
+- **License**  
+  Specify the sharing license (e.g., `CC BY 4.0`).
+
+- **Usage Instructions**  
+  - Provide information on interpreting response scales.  
+  - Include instructions for scoring derived variables (e.g., "Sleep Quality Index Score = Sum of Q1-Q9").
+
+- **Citing the Dataset**  
+  Provide a citation format.
+
+
