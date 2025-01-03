@@ -25,7 +25,7 @@ By explaining how to configure and use a project, README files increase the like
 ## Key Components of a README File
 
 While the structure might vary depending on the project's complexity and nature, a typical README includes: Title and Description, Installation Instructions, Usage, Contributing Guidelines, License, Contact Information ..etc 
-- see more information on the file: [README- General template]
+- see more information on the file: [README- General template](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20-%20General%20Template.md)
 
 ## Conclusion
 
