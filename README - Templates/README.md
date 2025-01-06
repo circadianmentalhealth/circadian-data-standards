@@ -8,7 +8,7 @@ Welcome to your guide on how to effectively navigate README folders to enhance y
 
 ## Step 2: Check Your Essentials
 - **Download the README Checklist:** Access and download the README checklist provided in the repository. This checklist will guide you through the essential elements your README should cover.
-  -Access it [here]()
+  -Access it [here](https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20Checklist.jpg)
 
 ## Step 3: Choose the Right Template
 - **Use the Decision Tree:** Refer to the Decision Tree included in the repository to identify the README template that best fits the nature of your research or project.
