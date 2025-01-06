@@ -4,7 +4,7 @@ Welcome to your guide on how to effectively navigate README folders to enhance y
 
 ## Step 1: Understand the Basics
 - **Read General Information:** Start by familiarising yourself with the basic concepts of README files. This will help you understand their importance and the key components they should contain.
-  -Access it [here]()
+  -Access it [here](https://github.com/circadianmentalhealth/circadian-data-standards/tree/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction)
 
 ## Step 2: Check Your Essentials
 - **Download the README Checklist:** Access and download the README checklist provided in the repository. This checklist will guide you through the essential elements your README should cover.
