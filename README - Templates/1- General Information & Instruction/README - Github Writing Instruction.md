@@ -152,7 +152,7 @@ the output will be:
 - [ ] Step 3: Run the analysis  
 
 ---
-The example above could be encoded using the proposed format as:
+The example below could be encoded using the proposed format as:
 ```
 ## Title: Effect of chronotype on localization
 
