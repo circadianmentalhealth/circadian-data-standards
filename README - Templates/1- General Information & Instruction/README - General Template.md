@@ -40,13 +40,15 @@ A well-structured README file helps others understand and utilize your dataset e
 - **Directory Structure**  
   Describe the organization of files and folders in the dataset (e.g., tree structure or list format).
   
-  ├── Folder1/ 
+├── Folder1/ 
     ├── file1.ext
     |── file2.ext
-  ├── Folder2/ 
+
+├── Folder2/ 
     ├── file1.ext
     |── file2.ext
-  ├── README.md
+
+├── README.md
 
 - **Dataset Description**  
   Clearly explain the contents of the dataset, including folder names, file names, and formats.
