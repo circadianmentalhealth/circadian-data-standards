@@ -39,13 +39,21 @@ A well-structured README file helps others understand and utilize your dataset e
 
 - **Directory Structure**  
   Describe the organization of files and folders in the dataset (e.g., tree structure or list format).
-  ├── Folder1/ │ ├── file1.ext │ └── file2.ext ├── Folder2/ │ ├── file1.ext │ └── file2.ext └── README.md
+  
+  ├── Folder1/ 
+    ├── file1.ext
+    |── file2.ext
+  ├── Folder2/ 
+    ├── file1.ext
+    |── file2.ext
+  ├── README.md
 
 - **Dataset Description**  
   Clearly explain the contents of the dataset, including folder names, file names, and formats.
 
 - **Data Dictionary**  
   Include a table describing each variable/column in the dataset (e.g., names, units, and descriptions).
+  
 | Variable       | Description                        | Format   |
 |----------------|------------------------------------|----------|
 | variable1      | Description of variable1           | Type/Unit|
