@@ -25,17 +25,9 @@
 - Tom Thorough
 - Diana Helpful
 
---- students template starts ---
---- propose sections Marked with # and their expected content ---
---- rather than definitions list the aspects which should be captured in this section
---- For example, look at the Biosample section bellow, what other information should be provided
---- for fly experiments.
---- 
---- There are suggestions of other sections, complete the recommended content, 
---- and feel free to add your own sections
 
 ## Biosample
-> Description of biological entity that was monitored / measured/ experimented on
+> Description of biological entity that was monitored / measured/ experimented on.  
 > Typical content will have information about:
 > Species
 > Strains used
@@ -45,22 +37,35 @@
 > Sample type: Whole fly / organ / tissues/ cells / extracts
 
 ## Husbandry 
-> Describe how flies were cultured
-> Include temperature, humidity, diet, housing. 
+> Describe how flies were cultured.  
+> Include temperature, humidity, diet, housing.
+> When applicable, include the time when food was offered
 
 ## Entrainment
->Describe light/dark cycles
+> Describe light/dark cycles.
+e.g., *Newly eclosed males were collected and entrained 4 to 7 days in a 12-h:12-h light:dark (LD) cycle*
 
 ## Experimental design
 >Here you will describe your experimental design. Some suggestions based on typical circadian experiments are added below 
-### Sleep
-> Describe the monitoring system and how fly activity was measured. 
-> Describe how sleep was defined (e.g, "sleep was defined as periods of quiescence lasting 5 min or longer"
-### Stimuli
-> Describe any type of stimuli such as vibration, light, olfactory, touch, hot or cold temperature, sound, electrical etc.
-> Describe any type of deprivation applied such as food, water, rest, sleep, mobility, etc.  
-> Add the timing (ZT) and duration of stimuli. 
 
+### Sleep measurement
+> Describe the monitoring system and how fly activity was measured.
+e.g., *"Individual flies were placed into approximately 65 mm tubes, which were then placed into Trikinetics Drosophila Activity Monitoring System (www.Trikinetics.com, Waltham, Massachusetts)"*
+> Refer to images taken of the device used that are present in the dataset.
+> Describe how sleep was defined (e.g, *"sleep was defined as periods of quiescence lasting 5 min or longer"*.    
+
+### Stimuli
+> Describe any type of stimuli such as vibration, light, olfactory, touch, hot or cold temperature, sound, electrical etc.  
+> Describe any type of deprivation applied such as food, water, rest, sleep, mobility, etc.  
+> Add the timing (ZT) and duration of stimuli, as well as to which individuals it was applied. 
+
+
+### Mating
+> Describe mating experiments such as mating success or mating competition.
+> Add number of individuals of each sex involved, developmental stage and time (ZT).
+> Add how mating success or competition was measured.
+
+## Physiological and Genetic measurements
 
 
 
