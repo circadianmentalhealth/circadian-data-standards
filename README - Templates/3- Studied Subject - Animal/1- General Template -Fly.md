@@ -37,26 +37,32 @@
 ## Biosample
 > Description of biological entity that was monitored / measured/ experimented on
 > Typical content will have information about:
-> Sample type: Whole fly / part / organ / cells / extracts....
-> In vivo / Ex vivo / In vitro
-> Age
-> Genetic info / Strains (what to include here) 
-> .....
-
-
-
+> Species
+> Strains used
+> Age / developmental stage
+> Sex
+> If experiment was done in vivo / Ex vivo / In vitro
+> Sample type: Whole fly / organ / tissues/ cells / extracts
 
 ## Husbandry 
-> COMENTS WHAT TO PUT
-Example entry
-
+> Describe how flies were cultured
+> Include temperature, humidity, diet, housing. 
 
 ## Entrainment
->
+>Describe light/dark cycles
+
+## Experimental design
+>Here you will describe your experimental design. Some suggestions based on typical circadian experiments are added below 
+### Sleep
+> Describe the monitoring system and how fly activity was measured. 
+> Describe how sleep was defined (e.g, "sleep was defined as periods of quiescence lasting 5 min or longer"
+### Stimuli
+> Describe any type of stimuli such as vibration, light, olfactory, touch, hot or cold temperature, sound, electrical etc.
+> Describe any type of deprivation applied such as food, water, rest, sleep, mobility, etc.  
+> Add the timing (ZT) and duration of stimuli. 
 
 
-## Experiment design
-> What is crucial for circadian study with flies
+
 
 
 ## Protocols
