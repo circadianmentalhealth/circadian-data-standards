@@ -4,15 +4,15 @@
 
 - **Summary/Abstract**  
   Describe the purpose of the dataset and the devices used
-  > for example: This dataset includes both self-reported survey responses and objective data collected through wearable device trackers. The study investigates the relationship between subjective and objective measures of sleep, physical activity, and mental health outcomes.
+  > for example: This dataset includes qualitative data from participant interviews alongside biological samples collected in a laboratory setting. The study explores relationships between subjective experiences and objective physiological markers related to sleep, circadian rhythms, and mental health.
 
 - **Purpose/Objective**  
   Explain the purpose, aims, objective of your project and from this datasets.
-  > For Example: The dataset was created to examine the correlation between self-reported behaviors and physiological data collected via wearable devices. It aims to improve the accuracy of self-reported measures and enhance research in circadian rhythms and mental health.
+  > For Example: The dataset was created to examine the correlation between self-reported behaviors, emotional states, and physiological biomarkers. It aims to bridge qualitative narratives with biological evidence for improved understanding of mental health and circadian research.
 
 - **Title of Dataset**  
   Provide the dataset title
-  > For example: "Survey and Wearable Device Tracker Dataset for Sleep and Mental Health, 2023"
+  > For example: "Interview and Laboratory Sample Dataset for Sleep and Mental Health, 2023"
 
 - **Author(s)/Contributor(s)**
   [Name], [Affiliation], [Email]
@@ -37,21 +37,25 @@
 
 - **Dictionary Structure**
 
-  ├── Survey_Data/          
-  │   ├── survey_responses.csv          
-  │   ├── survey_metadata.json         
-  │    
-  ├── Device_Tracker_Data/       
-  │   ├── raw_tracker_data.csv        
-  │   ├── processed_tracker_data.csv        
-  │       
-  ├── Documentation/       
-  │   ├── Data_Dictionary.xlsx      
-  │   ├── README.md         
+├── Interview_Data/  
+│   ├── transcripts/        
+│   │   ├── participant1_transcript.txt         
+│   │   ├── participant2_transcript.txt        
+│   ├── interview_metadata.json      
+│    
+├── Laboratory_Sample_Data/    
+│   ├── raw_sample_data.csv    
+│   ├── processed_biomarker_data.csv     
+│      
+├── Documentation/    
+│   ├── Data_Dictionary.xlsx    
+│   ├── README.md     
+
 
 - **Dataset Description***
-  Survey_Data/: Contains survey responses in CSV format with metadata.
-  Device_Tracker_Data/: Includes raw and processed data from wearable devices.
+
+  Interview_Data/: Contains interview transcripts, audio recordings (if applicable), and metadata.
+  Laboratory_Sample_Data/: Includes raw and processed data from biological samples (e.g., blood, saliva, hair cortisol).
   Documentation/: Metadata files describing variables, data dictionary, and study protocols.
 
 - **Device Specifications**  
