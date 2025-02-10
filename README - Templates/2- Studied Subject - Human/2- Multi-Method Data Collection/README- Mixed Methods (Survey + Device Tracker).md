@@ -58,6 +58,11 @@
   - Name, model, and manufacturer of the device.  
   - Firmware or software versions used.
 
+- **Survey Details**  
+  - Name and version of the survey instrument used (e.g., "Pittsburgh Sleep Quality Index, v2").
+  - Description of survey structure (e.g., number of questions, type of response scales).
+  - Validation references for the survey tool.
+
 - **Data Format**  
   - Explain the structure of the files (e.g., CSV, JSON).  
   - Provide details on key variables (e.g., timestamps, light exposure).
