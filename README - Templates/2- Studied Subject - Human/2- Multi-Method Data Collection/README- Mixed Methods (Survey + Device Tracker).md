@@ -80,7 +80,6 @@
   This study was approved by [Institutional Review Board Name, Approval Number]. Participants provided informed consent.
 
 - **Data Collection Timeline**
-
   Baseline Survey: Conducted on [Start Date].
   Wearable Device Tracking: Started on [Start Date] and continued for [X] days.
   Follow-up Surveys: Conducted on [Follow-up Dates] to capture changes over time.
@@ -102,7 +101,6 @@
   - Data Integration: Matched based on participant ID and timestamp.
 
 - **Data Analysis**
-
   Software used: Python (pandas, numpy), R (tidyverse), MATLAB.
   Analysis includes correlation tests, regression modeling, and clustering.
 
