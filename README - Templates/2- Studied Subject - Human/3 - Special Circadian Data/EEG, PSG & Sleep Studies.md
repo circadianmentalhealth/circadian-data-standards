@@ -1,57 +1,34 @@
-# Title: Type in the title/name
-> A descriptive name given to the dataset.
+# EEG, PSG & Sleep Studies
 
-## Date: YYYY-MM-DD
-> A point in time associated with the lifecycle of the dataset.  
-> Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g 2023-03-25)  
+## Purpose
 
-## Purpose (Research Hypothesis)
-> The overall rationale, reason, or intention for conducting a study that resulted in the the data set.   
-> Or the hypothesis that a study sets out to support (or disprove);
+This File describes electrophysiological data collected for sleep and circadian research. It includes details on EEG and PSG recordings, preprocessing steps, and metadata standards. Proper documentation ensures consistency across studies and enhances data reuse.
 
-## Abstract
-> A summary of the content of the dataset.  
-> Should include a brief information about the biological material, technique used
-> and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections bellow, here, 
-> we expect a short description that helps to understand the content of the dataset without its thorough examination.
+## Sections to Include
 
-## Contributors
-> List of persons making contribution to the creation of the dataset.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful
+### Equipment & Settings
+- **EEG/PSG Device Model:** Specify manufacturer and model (e.g., BrainVision ActiChamp, Natus Embla).
+- **Channel Configuration:** Document the number and placement of electrodes (e.g., 10-20 system, frontal-central montages).
+- **Sampling Rate:** List the recording frequency (e.g., 256 Hz, 512 Hz).
+- **Reference Electrode:** Describe the referencing method (e.g., linked mastoids, Cz reference).
 
---- students template starts ---
---- propose sections Marked with # and their expected content ---
---- rather than definitions list the aspects which should be captured in this section
---- For example, look at the COHORTS section bellow
---- 
---- There are suggestions of other sections, complete the recommended content, 
---- and feel free to add your own sections
+## Data Collection Protocol
 
-## COHORTS
-> Describe common characteristics withing groups of participants 
-> Typically include Demographics, Health Conditions, inclusion exclusion criteria
-CONTROL
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
+- **Sleep Staging Criteria:** Guidelines followed (e.g., AASM, R&K).
+- **Artifact Removal Methods:** Procedures for handling noise (e.g., Independent Component Analysis for eye blinks, high-pass filtering at 0.3 Hz).
+- **Scoring Process:** Who performed the manual scoring and their qualifications.
 
-GROUP1: Low light
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
-Intervention: LOW-LIGHT
+## File Formats & Standards
 
-GROUP2: Strong light
-...
+- **BIDS Compatibility:** Whether the data follows the Brain Imaging Data Structure (BIDS) format.
+- **File Types:** EEG (EDF, CSV), PSG (EDF, annotations).
 
-## INTERVENTIONS
-> What typically interventions description should contain
->
->
->
-LOW-LIGHT
-....
+## Data Preprocessing
+
+- **Noise Filtering:** Specify methods (e.g., bandpass filtering 0.3–35 Hz).
+- **Feature Extraction:** Describe extracted parameters (e.g., spectral power, sleep spindle detection).
+
+## Metadata
+
+- **Sleep Scoring Criteria:** Labeling of sleep stages (NREM, REM, wake) with timestamps.
+- **Technician Notes:** Documenting any deviations from protocol, participant compliance.
