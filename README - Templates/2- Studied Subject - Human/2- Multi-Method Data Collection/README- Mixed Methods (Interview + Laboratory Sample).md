@@ -100,7 +100,6 @@
   - Data Integration: Participant ID was used to link qualitative and biomarker data.
 
 - **Data Analysis**
-
   Qualitative Analysis: Thematic coding performed using NVivo/ATLAS.ti.
   Biomarker Analysis: Statistical analysis performed using R, Python, or SPSS.
   Mixed-Methods Integration: Merging interview themes with biological data for correlational analysis..
@@ -115,9 +114,7 @@
 - **Licence** 
   [Specify license, e.g., CC BY 4.0]
 
-
 - **Usage Instructions**  
-
   Interview transcripts can be analyzed using qualitative software.
   Biomarker data can be processed in statistical analysis programs.
   Refer to Data_Dictionary.xlsx for variable descriptions.
