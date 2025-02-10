@@ -1,4 +1,4 @@
-# README: Mixed Methods (Survey + Device Tracker)
+# README: Mixed Methods (Interview + Laboratory Sample)
 
 ## General Information
 
@@ -58,9 +58,6 @@
   Laboratory_Sample_Data/: Includes raw and processed data from biological samples (e.g., blood, saliva, hair cortisol).
   Documentation/: Metadata files describing variables, data dictionary, and study protocols.
 
-- **Device Specifications**  
-  - Name, model, and manufacturer of the device.  
-  - Firmware or software versions used.
 
 - **Data Format**  
   - Explain the structure of the files (e.g., CSV, JSON).  
@@ -75,7 +72,8 @@
 |------------------|--------------------------------|--------------|  
 | `participant_id` | Unique ID for participants     | Categorical  |  
 | `age`            | Age in years                   | Numeric      |
-| `step_count`     | Number of steps (by device)    | Integer     |
+| `interview_date` | Date of interview completion   | YYYY-MM-DD   |
+| `transcript_text`| Full interview transcript text | Text         |
 
 ---
 ## Methodology
@@ -85,30 +83,27 @@
 
 - **Data Collection Timeline**
 
-  Baseline Survey: Conducted on [Start Date].
-  Wearable Device Tracking: Started on [Start Date] and continued for [X] days.
-  Follow-up Surveys: Conducted on [Follow-up Dates] to capture changes over time.
+  Baseline Interview: Conducted on [Start Date].
+  Laboratory Sample Collection: Conducted on [Start Date] at [Lab Name].
+  Follow-up Interviews: Conducted on [Follow-up Dates] to assess longitudinal changes.
   Final Data Collection Point: Concluded on [End Date].
-  Integration Points: Survey data was re-collected at key intervals ([list intervals]) to align with wearable tracking periods.
-
+  Integration Points: Follow-up interviews were conducted after biological sample analysis.
 
 - **Data Collection**  
-  - Explain calibration processes.  
-  - Describe sampling intervals (e.g., "Data recorded every 30 seconds").
-  - Survey: Participants completed an online questionnaire using [Survey Platform].
-  - Device Tracking: Wearable devices (e.g., Actigraphy, Fitbit, Garmin) recorded step count, heart rate, and sleep duration.
+  - Explain calibration processes.
+  - Interviews: Semi-structured interviews were conducted by trained researchers and transcribed verbatim.
+  - Laboratory Samples: Biological samples (e.g., blood, saliva, hair) were collected and analyzed using standard protocols.
 
 - **Data Processing**  
-  - Detail preprocessing steps for raw data.  
-  - Describe derived metrics (e.g., total sleep time, activity counts).
-  - Survey Data: Checked for missing responses, validated against expected ranges.
-  - Device Data: Time-synced with survey timestamps, noise reduction applied.
-  - Data Integration: Matched based on participant ID and timestamp.
+  - Interview Data: Transcripts were anonymised and coded for thematic analysis.
+  - Laboratory Data: Samples were processed and analyzed for specific biomarkers (e.g., cortisol, melatonin levels).
+  - Data Integration: Participant ID was used to link qualitative and biomarker data.
 
 - **Data Analysis**
 
-  Software used: Python (pandas, numpy), R (tidyverse), MATLAB.
-  Analysis includes correlation tests, regression modeling, and clustering.
+  Qualitative Analysis: Thematic coding performed using NVivo/ATLAS.ti.
+  Biomarker Analysis: Statistical analysis performed using R, Python, or SPSS.
+  Mixed-Methods Integration: Merging interview themes with biological data for correlational analysis..
 
 - **Ethical Considerations**  
   Highlight privacy safeguards for participant data.
@@ -122,14 +117,14 @@
 
 
 - **Usage Instructions**  
-  Include guidelines for interpreting device data (e.g., "Activity levels are measured in arbitrary units").
-  Load survey responses using Python (pandas.read_csv) or R (read.csv).
-  Device tracker data can be processed using [specific libraries, e.g., ActiLife, FitBit API].
+
+  Interview transcripts can be analyzed using qualitative software.
+  Biomarker data can be processed in statistical analysis programs.
   Refer to Data_Dictionary.xlsx for variable descriptions.
 
 - **Citing the Dataset**  
   Provide citation details.
-  [Author(s)], [Year]. "Survey and Wearable Device Tracker Dataset for Sleep and Mental Health". [Repository/DOI].
+  [Author(s)], [Year]. "Interview and Laboratory Sample Dataset for Sleep and Mental Health". [Repository/DOI].
 
 - **Related Publications/Protocols**
   [Related research paper]
