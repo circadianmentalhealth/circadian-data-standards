@@ -17,7 +17,7 @@ This File describes a structure for mobile app-based mental health interventions
 
 ### Data Privacy & Security
 - **Informed Consent:** Details on how consent was obtained.
-- **Anonymization Methods:** Techniques used to de-identify personal data.
+- **Anonymisation Methods:** Techniques used to de-identify personal data.
 - **Data Encryption:** Security measures for data storage and transmission.
 
 ### Data Format & Export Methods
