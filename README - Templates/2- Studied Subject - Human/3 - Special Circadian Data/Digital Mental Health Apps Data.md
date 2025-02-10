@@ -1,34 +1,29 @@
-# EEG, PSG & Sleep Studies
+# Digital Mental Health Apps Data
 
 ## Purpose
 
-This File describes electrophysiological data collected for sleep and circadian research. It includes details on EEG and PSG recordings, preprocessing steps, and metadata standards. Proper documentation ensures consistency across studies and enhances data reuse.
+This File describes a structure for mobile app-based mental health interventions and passive data collection. Developers and researchers should document app-related details for transparency and reproducibility.
 
 ## Sections to Include
 
-### Equipment & Settings
-- **EEG/PSG Device Model:** Specify manufacturer and model (e.g., BrainVision ActiChamp, Natus Embla).
-- **Channel Configuration:** Document the number and placement of electrodes (e.g., 10-20 system, frontal-central montages).
-- **Sampling Rate:** List the recording frequency (e.g., 256 Hz, 512 Hz).
-- **Reference Electrode:** Describe the referencing method (e.g., linked mastoids, Cz reference).
+### App Description
+- **Name & Version:** Specify app name and version number (e.g., MindfulTrack v2.3).
+- **Developer Information:** Provide details on the developer and institution.
+- **Intended Use:** Describe if the app is for symptom tracking, intervention delivery, or passive monitoring.
 
-## Data Collection Protocol
+### Types of Data Collected
+- **User Input:** Surveys, mood logs, diary entries.
+- **Passive Data:** GPS, phone usage patterns, screen time.
 
-- **Sleep Staging Criteria:** Guidelines followed (e.g., AASM, R&K).
-- **Artifact Removal Methods:** Procedures for handling noise (e.g., Independent Component Analysis for eye blinks, high-pass filtering at 0.3 Hz).
-- **Scoring Process:** Who performed the manual scoring and their qualifications.
+### Data Privacy & Security
+- **Informed Consent:** Details on how consent was obtained.
+- **Anonymization Methods:** Techniques used to de-identify personal data.
+- **Data Encryption:** Security measures for data storage and transmission.
 
-## File Formats & Standards
+### Data Format & Export Methods
+- **File Formats:** JSON, CSV, database schemas.
+- **Data Sharing Policies:** Whether APIs or raw data exports are available.
 
-- **BIDS Compatibility:** Whether the data follows the Brain Imaging Data Structure (BIDS) format.
-- **File Types:** EEG (EDF, CSV), PSG (EDF, annotations).
-
-## Data Preprocessing
-
-- **Noise Filtering:** Specify methods (e.g., bandpass filtering 0.3–35 Hz).
-- **Feature Extraction:** Describe extracted parameters (e.g., spectral power, sleep spindle detection).
-
-## Metadata
-
-- **Sleep Scoring Criteria:** Labeling of sleep stages (NREM, REM, wake) with timestamps.
-- **Technician Notes:** Documenting any deviations from protocol, participant compliance.
+### Ethical Considerations
+- **Regulatory Compliance:** GDPR, HIPAA requirements for mental health data.
+- **User Consent Requirements:** Description of opt-in and opt-out procedures.
