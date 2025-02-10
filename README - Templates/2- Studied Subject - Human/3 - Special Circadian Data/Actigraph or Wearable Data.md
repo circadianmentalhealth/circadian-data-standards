@@ -1,57 +1,41 @@
-# Title: Type in the title/name
-> A descriptive name given to the dataset.
+# Actigraphy & Wearable Sensor Data
 
-## Date: YYYY-MM-DD
-> A point in time associated with the lifecycle of the dataset.  
-> Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g 2023-03-25)  
+## Purpose
 
-## Purpose (Research Hypothesis)
-> The overall rationale, reason, or intention for conducting a study that resulted in the the data set.   
-> Or the hypothesis that a study sets out to support (or disprove);
+This dOCUMENTS  provides standardised reporting guidelines for actigraphy-based sleep and circadian rhythm studies. It details device specifications, data collection methodologies, and processing techniques. Researchers using wearable sensor data should ensure all critical details are documented for reproducibility and transparency.
 
-## Abstract
-> A summary of the content of the dataset.  
-> Should include a brief information about the biological material, technique used
-> and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections bellow, here, 
-> we expect a short description that helps to understand the content of the dataset without its thorough examination.
+## Sections to Include
 
-## Contributors
-> List of persons making contribution to the creation of the dataset.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful
+### Device Information
 
---- students template starts ---
---- propose sections Marked with # and their expected content ---
---- rather than definitions list the aspects which should be captured in this section
---- For example, look at the COHORTS section bellow
---- 
---- There are suggestions of other sections, complete the recommended content, 
---- and feel free to add your own sections
+- **Brand & Model:** Specify the brand and model of the device used (e.g., ActiGraph GT9X, Fitbit Charge 4, Oura Ring).
+- **Firmware Version:** Document the firmware version as updates may affect data processing.
+- **Sensor Type:** Specify the type of sensors included (e.g., accelerometer, gyroscope, PPG for heart rate).
 
-## COHORTS
-> Describe common characteristics withing groups of participants 
-> Typically include Demographics, Health Conditions, inclusion exclusion criteria
-CONTROL
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
+### Data Collection
 
-GROUP1: Low light
-Shift workers aged 35-50 who have been shift workers for over 2 years
-Exclusion: chronic disease, sleep influencing medication
-Intervention: LOW-LIGHT
+- **Sampling Frequency:** Note the frequency of data recording (e.g., 30 Hz for raw accelerometer data, 1-minute epochs for activity counts).
+  
+- **Measurement Parameters:**
+  Activity counts (if applicable) and computation method.
+  Sleep-wake detection: Specify the algorithm or scoring method (e.g., Cole-Kripke, proprietary Fitbit algorithm).
+  Light Exposure: If included, specify the spectral range and sensitivity of the sensor.
+  Heart Rate Variability (HRV): If available, include details on derivation methods.
 
-GROUP2: Strong light
-...
+- **Study Protocol:**
+  Total monitoring duration (e.g., 7 days, 24-hour monitoring).
+  Specific instructions given to participants (e.g., wear on the non-dominant wrist, remove only during showering).
 
-## INTERVENTIONS
-> What typically interventions description should contain
->
->
->
-LOW-LIGHT
-....
+- **Data Format**
+   Raw vs. Processed Data: Clearly separate and document raw sensor data and any processed data (e.g., sleep scoring outputs).
+  File Types: Specify formats used (CSV, EDF, JSON, proprietary formats like AGD).
+
+### Preprocessing & Quality Control
+
+  Artifact Removal: Methods used to detect and correct artifacts (e.g., non-wear detection based on activity thresholds).
+  Handling Missing Data: Strategies for handling missing or incomplete data (e.g., imputation methods, exclusion criteria).
+
+### Metadata
+
+  **Participant Compliance:** Adherence to wearing instructions, self-reported wear-time logs.
+  **Environmental Context:** Additional data sources such as light exposure, temperature conditions, or subjective sleep diaries.
