@@ -97,6 +97,7 @@
 - **Data Processing**  
   - Interview Data: Transcripts were anonymised and coded for thematic analysis.
   - Laboratory Data: Samples were processed and analyzed for specific biomarkers (e.g., cortisol, melatonin levels).
+  - Specify the collection method (e.g., "Saliva collected using passive drool").
   - Data Integration: Participant ID was used to link qualitative and biomarker data.
 
 - **Data Analysis**
