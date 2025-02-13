@@ -67,21 +67,20 @@
                 container.innerHTML = `
                     <button class="btn btn-primary m-2" onclick="nextQuestion('one-method')">One Method</button>
                     <button class="btn btn-primary m-2" onclick="nextQuestion('multiple-methods')">Multiple Methods</button>`;
-            }
-        }
-
-        function showResult(choice) {
-            let container = document.getElementById("options-container");
-            if (choice === "fly") {
-                container.innerHTML = `<a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/3-%20Studied%20Subject%20-%20Animal/1-%20General%20Template%20-Fly.md" class="btn btn-success m-2" target="_blank">View Fly Template</a>`;
-            } else if (choice === "mouse") {
-                container.innerHTML = `<a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/3-%20Studied%20Subject%20-%20Animal/2-%20General%20Template%20-Mouse.md" class="btn btn-success m-2" target="_blank">View Mouse Template</a>`;
-            } else if (choice === "other-animal") {
-                container.innerHTML = `<a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/1-%20General%20Information%20%26%20Instruction/README%20-%20General%20Template.md" class="btn btn-success m-2" target="_blank">View General Template</a>`;
+            } else if (choice === "one-method") {
+                text.innerText = "Select your data collection method:";
+                container.innerHTML = `
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/1-%20One-Method%20Data%20Collection/README-%20Device%20Tracker.md" class="btn btn-success m-2" target="_blank">Device Tracker</a>
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/1-%20One-Method%20Data%20Collection/README-%20Interview%2C%20Focus%20Group%2Cetc.md" class="btn btn-success m-2" target="_blank">Interview/Qualitative</a>
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/1-%20One-Method%20Data%20Collection/README-%20Laboratory%20Blood%20Sample.md" class="btn btn-success m-2" target="_blank">Laboratory Blood Sample</a>
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/1-%20One-Method%20Data%20Collection/README-%20Questionnaire%2CSurvey%2Cetc.md" class="btn btn-success m-2" target="_blank">Questionnaire/Survey</a>`;
+            } else if (choice === "multiple-methods") {
+                text.innerText = "Select your combination:";
+                container.innerHTML = `
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/2-%20Multi-Method%20Data%20Collection/README-%20Mixed%20Methods%20(Interview%20%2B%20Laboratory%20Sample).md" class="btn btn-success m-2" target="_blank">Interview + Laboratory Sample</a>
+                    <a href="https://github.com/circadianmentalhealth/circadian-data-standards/blob/main/README%20-%20Templates/2-%20Studied%20Subject%20-%20Human/2-%20Multi-Method%20Data%20Collection/README-%20Mixed%20Methods%20(Survey%20%2B%20Device%20Tracker).md" class="btn btn-success m-2" target="_blank">Survey + Device Tracker</a>`;
             }
         }
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
