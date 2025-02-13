@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README Templates - Circadian Data Standards</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Circadian Data Standards</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="readme-templates.html">README Templates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file-formats.html">File Formats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Find Your README Template</h1>
+            <p class="lead">Answer the questions below to find the best README template for your research.</p>
+        </div>
+    </header>
+
+    <!-- Decision Tree Section -->
+    <div class="container my-5">
+        <h2 class="text-center">Start Here</h2>
+        <div id="question-container" class="text-center">
+            <p id="question-text">What type of data are you working with?</p>
+            <button class="btn btn-primary m-2" onclick="nextQuestion('biological')">Biological Data</button>
+            <button class="btn btn-primary m-2" onclick="nextQuestion('sensor')">Sensor Data</button>
+            <button class="btn btn-primary m-2" onclick="nextQuestion('multimodal')">Multimodal Data</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2025 MRC UK Circadian Mental Health Network. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function nextQuestion(choice) {
+            let container = document.getElementById("question-container");
+            if (choice === "biological") {
+                container.innerHTML = `<p>What format is your biological data in?</p>
+                                       <button class="btn btn-primary m-2" onclick="showResult('bio-format1')">Format 1</button>
+                                       <button class="btn btn-primary m-2" onclick="showResult('bio-format2')">Format 2</button>`;
+            } else if (choice === "sensor") {
+                container.innerHTML = `<p>Click below to access the README template for Sensor Data.</p>
+                                       <a href="https://github.com/YOUR-REPO/sensor-readme-template.md" class="btn btn-success m-2" target="_blank">Open Sensor README</a>`;
+            } else if (choice === "multimodal") {
+                container.innerHTML = `<p>Do you need a standard format or a custom format?</p>
+                                       <button class="btn btn-primary m-2" onclick="showResult('standard')">Standard</button>
+                                       <button class="btn btn-primary m-2" onclick="showResult('custom')">Custom</button>`;
+            }
+        }
+
+        function showResult(choice) {
+            let container = document.getElementById("question-container");
+            if (choice === "bio-format1") {
+                container.innerHTML = `<p>Click below to download the README template for Bio Format 1.</p>
+                                       <a href="https://github.com/YOUR-REPO/bio-format1-readme.md" class="btn btn-success m-2" target="_blank">Download Template</a>`;
+            } else if (choice === "bio-format2") {
+                container.innerHTML = `<p>Click below to download the README template for Bio Format 2.</p>
+                                       <a href="https://github.com/YOUR-REPO/bio-format2-readme.md" class="btn btn-success m-2" target="_blank">Download Template</a>`;
+            } else if (choice === "standard") {
+                container.innerHTML = `<p>Click below for the standard README template.</p>
+                                       <a href="https://github.com/YOUR-REPO/standard-readme.md" class="btn btn-success m-2" target="_blank">Download Standard Template</a>`;
+            } else if (choice === "custom") {
+                container.innerHTML = `<p>Please contact us for a customized README template.</p>
+                                       <a href="contact.html" class="btn btn-info m-2">Contact Us</a>`;
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
