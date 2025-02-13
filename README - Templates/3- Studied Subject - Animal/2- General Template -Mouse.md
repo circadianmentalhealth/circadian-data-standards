@@ -33,18 +33,35 @@
 --- 
 --- There are suggestions of other sections, complete the recommended content, 
 --- and feel free to add your own sections
+## Ethical statements 
+> Include ethical approval number and the guidelines used to conduct the experiment. 
 
-## Biosample
-> Description of biological entity that was monitored / measured/ experimented on
+## Animals
+> Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
-> Sample type: Whole mice / part / organ / cells / extracts....
-> In vivo / Ex vivo / In vitro
-> Age
-> Genetic info / (what to include here) Strain name, alleles, provenance
-> .....
+ - Species;  
+ - Strains used (include unique identifiers when applicable)
+ - Provenance of animals
+ - Age / developmental stage;  
+ - Sex;
+ - Animal weight at start of experiment and unit
+ - If experiments were done in vivo / Ex vivo / In vitro;  
+ - Sample type: Whole mouse / organ / tissues/ cells / extracts.
+ - Number of animals studied
 
 ## Husbandry 
->
+> Describe the conditions where the animals were grown. Typical descriptions will include:  
+  - Feeding: type of diet / time when food was offered
+  - Housing: apparatus dimensions, material and link to commercial apparatus where applicable. 
+    - Temperature
+    - Humidity
+    - Bedding type
+    - Light intensity
+    - Type of light (fluorescent, LED panel, colour temperature, etc)
+    - Presence of wheels
+    - Sound control (are cages soundproof?)
+  - Entrainment: include light/dark cycles and light intesity used. 
+
 
 ## Sample preparation
 > SCN slice prepartion, Viral transduction 
