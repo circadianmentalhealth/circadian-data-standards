@@ -35,13 +35,13 @@
  -Sample type: Whole fly / organ / tissues/ cells / extracts. 
 
 ## Husbandry 
-> Describe how flies were cultured.  
+> Describe how flies were cultured. Typical descriptions will include:  
   - Temperature
   - Humidity
+  - Light intensity
   - Diet and time when food was offered
-  - Housing.
-
-
+  - Housing
+    
 ## Entrainment
 > Describe light/dark cycles.  
 e.g., *Newly eclosed males were collected and entrained 4 to 7 days in a 12-h:12-h light:dark (LD) cycle*
