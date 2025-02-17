@@ -40,19 +40,22 @@
 > Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
  - Species;  
- - Strains used (include unique identifiers when applicable)
+ - Genotypes/ strains used
+     - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable
  - Provenance of animals
- - Age / developmental stage;  
+ - Age / developmental stage - see ontologies for developmental stages [here](https://bioportal.bioontology.org/ontologies/MMUSDV/?p=classes) ;  
  - Sex;
- - Animal weight at start of experiment and unit
- - If experiments were done in vivo / Ex vivo / In vitro;  
- - Sample type: Whole mouse / organ / tissues/ cells / extracts.
+ - Animal weight at start of experiment. Include unit used. 
+ - Experiments were done in vivo / Ex vivo / In vitro;  
+ - Sample type collected: Whole mouse / organ / tissues/ cells / extracts.
  - Number of animals studied
 
 ## Husbandry 
-> Describe the conditions where the animals were grown. Typical descriptions will include:  
-  - Feeding: type of diet / time when food was offered
+> Describe the conditions where the animals were grown. Differentiate Control condition from Treatment conditions when applicable.   
+> Typical descriptions will include:  
+  - Feeding: type of diet / food availability / time when food was offered  
   - Housing: apparatus dimensions, material and link to commercial apparatus where applicable. 
+    - Number of individuals per box
     - Temperature
     - Humidity
     - Bedding type
@@ -60,7 +63,7 @@
     - Type of light (fluorescent, LED panel, colour temperature, etc)
     - Presence of wheels
     - Sound control (are cages soundproof?)
-  - Entrainment: include light/dark cycles and light intesity used. 
+  - Entrainment: include light/dark cycles where animals are entrained and light intensity used. 
 
 
 ## Sample preparation
