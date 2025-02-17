@@ -29,7 +29,7 @@
 >
  -Species;  
  -Strains used;  
- -Age / developmental stage;  
+ -Age / developmental stage - standard terms for describing drosophila developmental stages can be found [here](https://bioportal.bioontology.org/ontologies/FB-DV?p=classes)  
  -Sex;  
  -If experiments were done in vivo / Ex vivo / In vitro;  
  -Sample type: Whole fly / organ / tissues/ cells / extracts. 
