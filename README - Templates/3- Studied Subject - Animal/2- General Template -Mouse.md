@@ -1,4 +1,6 @@
-# Title: 
+# General information
+
+## Title: 
 > A descriptive name given to the dataset.
 
 ## Authors / contributors
@@ -35,9 +37,27 @@
 > Include ethical approval number and the guidelines used to conduct the experiment. 
 
 ## Dataset Folder/File Overview
-DATASET FOLDER/FILE OVERVIEW [Where?]
-[All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Include directory structure if necessary.]
-[Filenames should include extension.]
+Data file list: 
+
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.  
+
+Dataset structure:
+
+> Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
+
+ |--`Mice_monitoring_data/`       
+ |  |--`wheel-running_raw.csv`              
+ |  |--`wheel-running_analysed.csv`    
+         
+ |--`Brain_confocal_imaging/`  
+ |  |--`SCN_control_S01`  
+ |  |--`SCN_control_S02`    
+ |  |--`SCN_control_S03`    
+ |  |--`SCN_treatment_S01`    
+ |  |--`SCN_treatment_S02`    
+ |  |--`SCN_treatment_S03`    
+      
+# Methodological information 
 
 ## Biosample description
 > Description of biological entity that was monitored / measured/ experimented on.    
@@ -68,7 +88,6 @@ DATASET FOLDER/FILE OVERVIEW [Where?]
     - Sound control (are cages soundproof?)
   - Entrainment: add light/dark cycles where animals are entrained. and the light intensity used when applicable. 
 
-
 ## Experimental design and conditions
 > Here you will describe your experimental design. For example, if mice were divided in different groups and the treatments applied to which group. Describe the control group.   
 > For any type of measurement, describe the animals that were sellected for analysis and the number of samples.  
@@ -77,9 +96,9 @@ DATASET FOLDER/FILE OVERVIEW [Where?]
 
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
-   - Monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
-   - How mice activity was measured and the developmental stage when animals were monitored.
-   - Number of monitored animals 
+   - Activity and monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
+   - How data was measured and recorded.
+   - Developmental stage and sex of monitored animals 
    - How data was analysed. Include any software used. 
 
 ### Treatments
@@ -106,21 +125,17 @@ DATASET FOLDER/FILE OVERVIEW [Where?]
      - Channel information
      - Image processing methodology
      
-## Protocols
->
+# Dataset usage and access
 
+## Licence
+This dataset is shared under [Insert license here]
+> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a license made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
 
-## Measurements
+## Usage Instructions 
+> Include guidelines for reproducing or reusing the data or to open specific file formats. 
 
-### Measured data
-Activity
+## Citing the Dataset
+> Provide citation details.
 
-### Measurement technique
-Running wheel
-
-
-### Measured data
-Sleep stages
-
-### Measurement technique
-EMG-EEG
+## Related Publications/Protocols
+> Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset. 
