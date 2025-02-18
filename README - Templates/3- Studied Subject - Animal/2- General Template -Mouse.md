@@ -1,5 +1,14 @@
-# Title: Type in the title/name
+# Title: 
 > A descriptive name given to the dataset.
+
+## Authors / contributors
+> List of people of dataset creators and contributors.  
+> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
+> See the example entry bellow
+- Ana Student
+- Tom Thorough
+- Diana Helpful *
+*corresponding author [diana.help@edu.uni.uk]
 
 ## Date: YYYY-MM-DD
 > A point in time associated with the lifecycle of the dataset.  
@@ -12,41 +21,34 @@
 
 ## Abstract
 > A summary of the content of the dataset.  
-> Should include a brief information about the biological material, technique used
-> and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections bellow, here, 
-> we expect a short description that helps to understand the content of the dataset without its thorough examination.
+> Should include a brief information about the biological material, techniques used and measurement/experimental conditions. 
+> The comprehensives details are to be recorded in sections bellow. 
+> Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
 
-## Contributors
-> List of persons making contribution to the creation of the dataset.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful
+## Funding Information 
+ This study was supported by [Funding Agency, Grant Number].
 
---- students template starts ---
---- propose sections Marked with # and their expected content ---
---- rather than definitions list the aspects which should be captured in this section
---- For example, look at the Biosample section bellow, what other information should be provided
---- for fly experiments.
---- 
---- There are suggestions of other sections, complete the recommended content, 
---- and feel free to add your own sections
+## Acknowledgments
+> Add any acknowledgements
+
 ## Ethical statements 
 > Include ethical approval number and the guidelines used to conduct the experiment. 
 
-## Animals
+## Dataset Folder/File Overview
+DATASET FOLDER/FILE OVERVIEW [Where?]
+[All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Include directory structure if necessary.]
+[Filenames should include extension.]
+
+## Biosample description
 > Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
  - Species;  
  - Genotypes/ strains used
      - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable
- - Provenance of animals
- - Age / developmental stage - see ontologies for developmental stages [here](https://bioportal.bioontology.org/ontologies/MMUSDV/?p=classes) ;  
+ - Provenance of animals and strains. If new strains were generated, describe how this was done. 
+ - Age / developmental stage - for standard mouse developmental stages look [here](https://bioportal.bioontology.org/ontologies/MMUSDV/?p=classes);  
  - Sex;
- - Animal weight at start of experiment. Include unit used. 
- - Experiments were done in vivo / Ex vivo / In vitro;  
+ - If experiments were done in vivo / Ex vivo / In vitro;  
  - Sample type collected: Whole mouse / organ / tissues/ cells / extracts.
  - Number of animals studied
 
@@ -54,29 +56,56 @@
 > Describe the conditions where the animals were grown. Differentiate Control condition from Treatment conditions when applicable.   
 > Typical descriptions will include:  
   - Feeding: type of diet / food availability / time when food was offered  
-  - Housing: apparatus dimensions, material and link to commercial apparatus where applicable. 
+  - Housing:
+    - Housing apparatus description. Include a link to commercial apparatus where applicable. 
     - Number of individuals per box
     - Temperature
     - Humidity
     - Bedding type
     - Light intensity
     - Type of light (fluorescent, LED panel, colour temperature, etc)
-    - Presence of wheels
+    - Presence of running wheels
     - Sound control (are cages soundproof?)
-  - Entrainment: include light/dark cycles where animals are entrained and light intensity used. 
+  - Entrainment: add light/dark cycles where animals are entrained. and the light intensity used when applicable. 
 
 
-## Sample preparation
-> SCN slice prepartion, Viral transduction 
+## Experimental design and conditions
+> Here you will describe your experimental design. For example, if mice were divided in different groups and the treatments applied to which group. Describe the control group.   
+> For any type of measurement, describe the animals that were sellected for analysis and the number of samples.  
+> If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
+> Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include or delete sections that are not applicable to your work: 
 
-## Entrainment
->
+### Live activity monitoring
+> Describe the activity monitoring system. Typical descriptions include:
+   - Monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
+   - How mice activity was measured and the developmental stage when animals were monitored.
+   - Number of monitored animals 
+   - How data was analysed. Include any software used. 
 
+### Treatments
+> Describe any specific treatment applied. E.g., brain (SCN) lesions, light pulse stimuli, pharmacological interventions. 
 
-## Experiment design
-> What is crucial for circadian study with mice
+### Sample preparation
+> When the experiment involves euthanasia and sample preparation, include: 
+   - Animals selected for euthanasia (sex, developmental stage)
+   - Euthanasia procedure
+   - Sample used - for standards (ontologies) in adult mouse brain look [here](https://bioportal.bioontology.org/ontologies/ABA-AMB?p=classes&conceptid=http%3A%2F%2Fmouse.brain-map.org%2Fatlas%2Findex.html%23SCH)
+   - Sample preparation protocol
+   - Number of biological samples analysed
 
+### Imaging
+> If not described earlier in sample preparation, include a description of sample preparation and mounting for imaging or add links to corresponding protocols. 
+   - Image acquisition: 
+     - Instrument
+     - Image acquisition parameters (filters used, magnification, etc.)
 
+   - Image data:
+     - Describe if you are sharing raw, processed, and/or segmented images.
+     - File formats
+     - Image dimensions
+     - Channel information
+     - Image processing methodology
+     
 ## Protocols
 >
 
