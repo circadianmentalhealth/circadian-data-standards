@@ -125,6 +125,9 @@ Dataset structure:
      - Image dimensions
      - Channel information
      - Image processing methodology
+
+## Data analysis
+> Describe how the data was analysed including any sotware used and its version. 
      
 # Dataset usage and access
 
