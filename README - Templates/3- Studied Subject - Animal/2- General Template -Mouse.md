@@ -28,7 +28,7 @@
 > Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
 
 ## Funding Information 
- This study was supported by [Funding Agency, Grant Number].
+This study was supported by [Funding Agency, Grant Number].
 
 ## Acknowledgments
 > Add any acknowledgements
@@ -127,13 +127,13 @@ Dataset structure:
      - Image processing methodology
 
 ## Data analysis
-> Describe how the data was analysed including any sotware used and its version. 
+> Describe how the data was analysed including any software used and its version. 
      
 # Dataset usage and access
 
 ## Licence
-This dataset is shared under [Insert license here]
-> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a license made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
+This dataset is shared under [Insert licence here]
+> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a licence made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
 
 ## Usage Instructions 
 > Include guidelines for reproducing or reusing the data or to open specific file formats. 
