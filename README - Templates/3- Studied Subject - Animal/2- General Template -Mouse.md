@@ -94,21 +94,21 @@ Dataset structure:
 > If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include or delete sections that are not applicable to your work: 
 
+### Treatments
+> Describe any specific treatment applied.
+> E.g., brain (SCN) lesions, light pulse stimuli, phase-shifting, pharmacological interventions.   
+
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
    - Activity and monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
    - How data was measured and recorded.
    - Developmental stage and sex of monitored animals 
    
-
-### Treatments
-> Describe any specific treatment applied. E.g., brain (SCN) lesions, light pulse stimuli, pharmacological interventions. 
-
 ### Sample preparation
 > When the experiment involves euthanasia and sample preparation, include: 
    - Animals selected for euthanasia (sex, developmental stage)
    - Euthanasia procedure
-   - Sample used - for standards (ontologies) in adult mouse brain look [here](https://bioportal.bioontology.org/ontologies/ABA-AMB?p=classes&conceptid=http%3A%2F%2Fmouse.brain-map.org%2Fatlas%2Findex.html%23SCH)
+   - Sample collected - for standards (ontologies) in adult mouse brain look [here](https://bioportal.bioontology.org/ontologies/ABA-AMB?p=classes&conceptid=http%3A%2F%2Fmouse.brain-map.org%2Fatlas%2Findex.html%23SCH)
    - Sample preparation protocol
    - Number of biological samples analysed
 
@@ -127,7 +127,9 @@ Dataset structure:
      - Image processing methodology
 
 ## Data analysis
-> Describe how the data was analysed including any software used and its version. 
+> Describe how the data was analysed including any software used and its version.
+> Include any data processing (detrending, smoothing, averaging, etc)
+> Describe the methods used for period and phase analysis. 
      
 # Dataset usage and access
 
