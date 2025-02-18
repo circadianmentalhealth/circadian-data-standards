@@ -99,7 +99,7 @@ Dataset structure:
    - Activity and monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
    - How data was measured and recorded.
    - Developmental stage and sex of monitored animals 
-   - How data was analysed. Include any software used. 
+   
 
 ### Treatments
 > Describe any specific treatment applied. E.g., brain (SCN) lesions, light pulse stimuli, pharmacological interventions. 
