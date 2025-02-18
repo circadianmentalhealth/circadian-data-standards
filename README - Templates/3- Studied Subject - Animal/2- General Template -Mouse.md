@@ -9,7 +9,7 @@
 > See the example entry bellow
 - Ana Student
 - Tom Thorough
-- Diana Helpful *
+- Diana Helpful *  
 *corresponding author [diana.help@edu.uni.uk]
 
 ## Date: YYYY-MM-DD
@@ -113,9 +113,10 @@ Dataset structure:
    - Number of biological samples analysed
 
 ### Imaging
-> If not described earlier in sample preparation, include a description of sample preparation and mounting for imaging or add links to corresponding protocols. 
-   - Image acquisition: 
-     - Instrument
+> If not described earlier in sample preparation, include a description of sample preparation and mounting for imaging or add links to corresponding protocols.
+   - Imaging method: (e.g. fluorescence microscopy, bioluminescence, etc)
+   - Image acquisition:   
+     - Instrument used
      - Image acquisition parameters (filters used, magnification, etc.)
 
    - Image data:
