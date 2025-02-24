@@ -15,16 +15,16 @@
 ## Date: YYYY-MM-DD
 > A point in time associated with the lifecycle of the dataset.  
 > Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g 2023-03-25)  
+> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)  
 
 ## Purpose (Research Hypothesis)
-> The overall rationale, reason, or intention for conducting a study that resulted in the the data set.   
+> The overall rationale, reason, or intention for conducting a study that resulted in the data set.   
 > Or the hypothesis that a study sets out to support (or disprove);
 
 ## Abstract
 > A summary of the content of the dataset.  
 > Should include a brief information about the biological material, techniques used and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections bellow. 
+> The comprehensives details are to be recorded in sections below. 
 > Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
 
 ## Funding Information 
@@ -86,11 +86,11 @@ Dataset structure:
     - Type of light (fluorescent, LED panel, colour temperature, etc)
     - Presence of running wheels
     - Sound control (are cages soundproof?)
-  - Entrainment: add light/dark cycles where animals are entrained. and the light intensity used when applicable. 
+  - Entrainment: add light/dark cycles where animals are entrained and the light intensity used when applicable. 
 
 ## Experimental design and conditions
 > Here you will describe your experimental design. For example, if mice were divided in different groups and the treatments applied to which group. Describe the control group.   
-> For any type of measurement, describe the animals that were sellected for analysis and the number of samples.  
+> For any type of measurement, describe the animals that were selected for analysis and the number of samples.  
 > If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
 
@@ -100,11 +100,11 @@ Dataset structure:
   - light pulse stimuli;  
   - phase-shifting;  
   - pharmacological interventions.
-> Add timing of interventions (ZT) 
+> Add timing of interventions - **use Zeitgeber time (ZT)**
 
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
-   - Activity and monitoring system used (e.g, wheel running actvity, infrared camera, etc.)
+   - Activity and monitoring system used (e.g., wheel running activity, infrared camera, etc.)
    - How data was measured and recorded.
    - Developmental stage and sex of monitored animals 
    
