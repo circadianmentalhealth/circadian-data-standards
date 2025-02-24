@@ -1,56 +1,99 @@
-# Title: Type in the title/name
+# General information
+
+## Title: Type in the title/name
 > A descriptive name given to the dataset.
+
+## Authors / contributors
+> List of people of dataset creators and contributors.  
+> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
+> See the example entry bellow
+- Ana Student
+- Tom Thorough
+- Diana Helpful *  
+*corresponding author [diana.help@edu.uni.uk]
 
 ## Date: YYYY-MM-DD
 > A point in time associated with the lifecycle of the dataset.  
 > Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g 2023-03-25)  
+> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)  
 
 ## Purpose (Research Hypothesis)
-> The overal rationale, reason, or intention for conducting a study that resulted in the the data set.   
+> The overall rationale, reason, or intention for conducting a study that resulted in the data set.   
 > Or the hypothesis that a study sets out to support (or disprove);
 
 ## Abstract
 > A summary of the content of the dataset.  
 > Should include a brief information about the biological material, technique used and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections below. Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
+> The comprehensives details are to be recorded in sections below.
+> Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
 
-## Contributors
-> List of persons making contribution to the creation of the dataset.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful
+## Funding Information 
+This study was supported by [Funding Agency, Grant Number].
+
+## Acknowledgments
+> Add any acknowledgements
+
+## Dataset Folder/File Overview
+Data file list: 
+
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.  
+
+Dataset structure:
+
+> Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
+
+ |--`Fly_monitoring_data/`       
+ |  |--`Activity_recording.csv`              
+ |  |--`Sleep_data.csv`    
+         
+ |--`Cultured_neuron_imaging/`  
+ |  |--`wild_type_S01`  
+ |  |--`wild_type_S02`    
+ |  |--`wild_type_S03`    
+ |  |--`clock_mutant_S01`    
+ |  |--`clock_mutant_S02`    
+ |  |--`clock_mutant_S03`    
+
+# Methodological information 
 
 ## Biosample
 > Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
 >
- -Species;  
- -Strains used;  
- -Age / developmental stage - standard terms for describing drosophila developmental stages can be found [here](https://bioportal.bioontology.org/ontologies/FB-DV?p=classes)  
- -Sex;  
- -If experiments were done in vivo / Ex vivo / In vitro;  
- -Sample type: Whole fly / organ / tissues/ cells / extracts. 
+ - Species;  
+ - Genotypes/ strains used
+     - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable  
+ - Age / developmental stage range used- standard terms for describing drosophila developmental stages can be found [here](https://bioportal.bioontology.org/ontologies/FB-DV?p=classes)  
+ - Sex;  
+ - If experiments were done in vivo / Ex vivo / In vitro;  
+ - Sample type: Whole fly / organ / tissues/ cells / extracts.
+ - Number of animals studied
 
 ## Husbandry 
-> Describe the conditions where the animals were grown. Typical descriptions will include:  
-  - Feeding: type of diet / time when food was offered
-  - Housing: apparatus dimensions, material.
+> Describe the conditions where the animals were grown.
+> Differentiate Control condition from Treatment conditions when applicable.
+> Typical descriptions will include:  
+  - Feeding: type of diet / food availability / time when food was offered - **use Zeitgeber time (ZT)** 
+  - Housing:
+    - Vial material or description/links to commercial housing systems
+    - Number of individuals per vessel
     - Temperature
     - Humidity
     - Light intensity
     - Type of light (fluorescent, LED panel, colour temperature, etc)
-    - Entrainment: describe light/dark cycles e.g., *Newly eclosed males were collected and entrained 4 to 7 days in a 12-h:12-h light:dark (LD) cycle*
+    - Entrainment: describe light/dark cycles where flies were entrained. E.g., *Newly eclosed males were collected and entrained 4 to 7 days in a 12-h:12-h light:dark (LD) cycle*
     
 ## Experimental design and conditions
-> Here you will describe your experimental design. For example, if flies were divided in different groups and the treatments applied to which group. Some suggestions are described next.   
+> Here you will describe your experimental design. For example, if flies were divided in different groups and the treatments applied to which group.
+> Describe the control group.   
+> For any type of measurement, describe when and which flies were collected, which parts were dissected for analysis and the number of samples. 
+> If necessary, include separate README files for each experiment type (or measured data type). For example, a separate README file for imaging experiments and a separate README file for gene expression experiments.  
+> Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
 
-### Stimuli
-> Describe any type of stimuli such as vibration, light, olfactory, touch, hot or cold temperature, sound, electrical etc.  
-> Describe any type of deprivation applied such as food, water, rest, sleep, mobility, etc.
-> Add the timing (ZT) and duration of stimuli, as well as to which individuals it was applied and when.  
+### Treatments / Stimuli
+> Describe any type of stimuli such as light pulses, vibration, olfactory, touch, hot or cold temperature, sound, electrical etc.  
+> Describe any type of treatment such as deprivations (food, water, rest, sleep, mobility, etc) or pharmacological treatments. 
+> Add the timing - **use Zeitgeber time (ZT)** - and duration of treatment/stimuli, as well as to which individuals it was applied (sex, developmental stage).  
 
 ### Mating
 > Describe mating experiments such as mating success or mating competition.
@@ -59,37 +102,64 @@
  - time (ZT).
 > Add how mating success or competition was measured.
 
-## Measurements
-> For any type of measurement, describe when and which flies were collected, which parts were dissected for analysis and the number of samples.
-> If necessary, include separate README files for each data type. For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.
-> Describe measured techniques and the measured data. Some suggestions are described next: 
+### Sleep measurement / locomotor activity monitoring
+> Describe the monitoring system and how fly activity was measured (e.g. Trikinetics Drosophila Activity Monitoring System; www.Trikinetics.com, Waltham, Massachusetts) 
+> Refer to images taken of the device used that are present in the dataset.    
+> Describe how sleep was defined (e.g., *"Sleep was characterized as intervals of inactivity that lasted for at least 5 minutes"*).  
 
-### Sleep measurement / activity monitoring
-> Describe the monitoring system and how fly activity was measured.  
-e.g., *"Individual flies were placed into approximately 65 mm tubes, which were then placed into Trikinetics Drosophila Activity Monitoring System (www.Trikinetics.com, Waltham, Massachusetts)"*  
-> Refer to images taken of the device used that are present in the dataset.  
-> Describe how sleep was defined (e.g., *"sleep was defined as periods of quiescence lasting 5 min or longer"*).    
+### Sample preparation
+> When the experiment involves sample preparation (e.g., cell cultures), include: 
+   - Animals selected (sex, developmental stage)
+   - Time when flies were anesthetized (ZT) 
+   - Anaesthesia method (CO2, solvent) 
+   - Sample collected from flies (e.g., brain) 
+   - Sample preparation protocol (e.g., cell culture preparation) 
+   - Number of biological samples analysed
+
+### Bioluminescence
+> Describe bioluminescence assays.
+   - Device used (e.g. LumiCycle 32 Color (Actimetrics))
+   - Genotype, sex and developmental stage of individuals
+   - Plates used and its content (number of flies added to each plate and well, media type + luciferin concentration)
+   - Temperature
+   - Frequency and duration of bioluminescence measurements (e.g., every 15 min for 12 days) 
+   - Luminescence measurement method / software
+   - Number of replicates
 
 ### Imaging
-> Include links to protocols and a description of sample preparation and mounting for imaging.
-> Describe the biosample collected for imaging if different from general biosample description above. 
-> Image acquisition: 
-  - Instrument
-  - Image acquisition parameters (filters used, magnification, etc.)
-> Image data:
-  - Describe if you are sharing raw, processed, and/or segmented images.
-  - File formats
-  - Image dimensions
-  - Channel information
-  - Image processing methodology
+> If not described earlier in sample preparation, include a description of sample preparation and mounting for imaging or add links to corresponding protocols.  
+- Imaging method: (e.g. fluorescence microscopy, bioluminescence, etc)
+   - Image acquisition:   
+     - Instrument used
+     - Image acquisition parameters (filters used, magnification, etc.)
 
-### Video recording
- - Type of camera and where it was placed in housing.
- - How many frames per second (FPS)
- - How long animals were recorded
- - Time of recording (ZT)
-   
+   - Image data:
+     - Describe if you are sharing raw, processed, and/or segmented images.
+     - File formats
+     - Image dimensions
+     - Channel information
+     - Image processing methodology
+  
 ### Gene expression / Immunocytochemistry / Transcriptomics or other   
 > Include all details necessary to reproduce the data. This might include links to external protocols.    
-> See [Gene expression omnibus guidelines](https://www.ncbi.nlm.nih.gov/geo/info/MIAME.html) for data submission, where they describe critical elements to include in genomic datasets
+> For genomic data see [Gene expression omnibus guidelines](https://www.ncbi.nlm.nih.gov/geo/info/MIAME.html), where they describe critical elements to include in genomic datasets
 
+## Data analysis
+> Describe how the data was analysed including any software used and its version.  
+> Include any data processing (detrending, smoothing, averaging, etc).  
+> Describe the methods used for period and phase analysis.   
+     
+# Dataset usage and access
+
+## Licence
+This dataset is shared under [Insert licence here]
+> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a licence made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
+
+## Usage Instructions 
+> Include guidelines for reproducing or reusing the data or to open specific file formats. 
+
+## Citing the Dataset
+> Provide citation details.
+
+## Related Publications/Protocols
+> Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset. 
