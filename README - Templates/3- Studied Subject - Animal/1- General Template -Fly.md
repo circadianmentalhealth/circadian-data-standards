@@ -1,6 +1,6 @@
 # General information
 
-## Title: Type in the title name
+## Title: 
 > A descriptive name given to the dataset.
 
 ## Authors / contributors
