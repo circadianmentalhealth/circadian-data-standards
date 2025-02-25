@@ -106,14 +106,15 @@ Dataset structure:
 > Describe the activity monitoring system. Typical descriptions include:
   - Developmental stage and sex of monitored animals, as well as growth conditions if different that what has been described before. 
   - Monitoring system used (e.g., infrared motion sensors, videotracking (ViewPoint ZebraBoxes), etc.)
-  - How data was measured and recorded.
-  - Software name and version used in for activity data analysis
+  - How data was recorded 
+  - Duration of recording, fish maintenance  
+  - Software name and version used in activity data analysis
   
 ### Spawning 
 > Describe how spawning was analysed. 
   - describe any specific apparatus used for that (e.g., specific tanks used as spawning boxes).  
   - number of males and females involved and their developmental stage
-  - water quality and temperature
+  - water quality and temperature during analysis
   - photoperiod (e.g., 14:10 light-dark cycles) and light intensity
   - describe how spawning was recorded and how the eggs were counted (include any software used and its version) 
    
