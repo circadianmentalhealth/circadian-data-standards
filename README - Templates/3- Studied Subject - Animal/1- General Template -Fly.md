@@ -92,7 +92,7 @@ Dataset structure:
 
 ### Treatments / Stimuli
 > Describe any type of stimuli such as light pulses, vibration, olfactory, touch, hot or cold temperature, sound, electrical etc.  
-> Describe any type of treatment such as deprivations (food, water, rest, sleep, mobility, etc) or pharmacological treatments. 
+> Describe any type of treatment such as deprivations (food, water, rest, sleep, mobility, etc) or pharmacological treatments.   
 > Add the timing - **use Zeitgeber time (ZT)** - and duration of treatment/stimuli, as well as to which individuals it was applied (sex, developmental stage).  
 
 ### Mating
@@ -103,8 +103,8 @@ Dataset structure:
 > Add how mating success or competition was measured.
 
 ### Sleep measurement / locomotor activity monitoring
-> Describe the monitoring system and how fly activity was measured (e.g. Trikinetics Drosophila Activity Monitoring System; www.Trikinetics.com, Waltham, Massachusetts) 
-> Refer to images taken of the device used that are present in the dataset.    
+> Describe the monitoring system and how fly activity was measured (e.g. Trikinetics Drosophila Activity Monitoring System; www.Trikinetics.com, Waltham, Massachusetts).   
+> Refer to images taken of the device used that are present in the dataset.      
 > Describe how sleep was defined (e.g., *"Sleep was characterized as intervals of inactivity that lasted for at least 5 minutes"*).  
 
 ### Sample preparation
