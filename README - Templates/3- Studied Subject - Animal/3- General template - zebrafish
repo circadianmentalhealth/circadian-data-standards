@@ -80,9 +80,9 @@ Dataset structure:
 > Typical descriptions will include:  
   - Feeding: type of diet / food availability / time when food was offered  
   - Housing:
-    - Housing apparatus description. Include a link to commercial apparatus where applicable. 
-    - Number of individuals per container (e.g., embryo density per petri dish) 
-    - Water quality/ treatment (e.g., dechlorinated, salt content, anti-fungal treatment) 
+    - Tank description including water volume. Include a link to commercial tanks where applicable. 
+    - Number of individuals per container (e.g., embryo density per petri dish or number of adult fish per tank) 
+    - Water quality/ treatment (e.g., dechlorinated, salt content, anti-fungal treatment, oxygenation) 
     - Water pH, temperature, conductivity
     - Frequency of water change
   - Entrainment: add light/dark cycles where fish were entrained and the light intensity and light type when applicable. 
@@ -95,17 +95,27 @@ Dataset structure:
 
 ### Treatments
 > Describe any specific treatment applied. For example:   
-  - light pulse stimuli;  
-  - phase-shifting;  
+  - light or dark pulse stimuli;  
+  - phase-shifting;    
+  - changes in feeding time or food type;   
   - pharmacological treatments (drug name, concentration, brand and identifier number) 
 
 > Add timing of interventions - **use Zeitgeber time (ZT)**
 
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
-   - Activity and monitoring system used (e.g., wheel running activity, infrared camera, etc.)
-   - How data was measured and recorded.
-   - Developmental stage and sex of monitored animals 
+  - Developmental stage and sex of monitored animals, as well as growth conditions if different that what has been described before. 
+  - Monitoring system used (e.g., infrared motion sensors, videotracking (ViewPoint ZebraBoxes), etc.)
+  - How data was measured and recorded.
+  - Software name and version used in for activity data analysis
+  
+### Spawning 
+> Describe how spawning was analysed. 
+  - describe any specific apparatus used for that (e.g., specific tanks used as spawning boxes).  
+  - number of males and females involved and their developmental stage
+  - water quality and temperature
+  - photoperiod (e.g., 14:10 light-dark cycles) and light intensity
+  - describe how spawning was recorded and how the eggs were counted (include any software used and its version) 
    
 ### Sample preparation
 > When the experiment involves euthanasia and sample preparation, include: 
