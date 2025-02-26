@@ -39,7 +39,15 @@ This study was supported by [Funding Agency, Grant Number].
 ## Dataset Folder/File Overview
 Data file list: 
 
-> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.  
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.   
+> Filenames should include extension. 
+
+File formats: 
+
+> State the file formats used and how to open specific file formats when applicable. 
+> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
+> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts (e.g., MATLAB) still function after export. 
+
 
 Dataset structure:
 
@@ -93,21 +101,20 @@ Dataset structure:
 > If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
 
-### Treatments
-> Describe any specific treatment applied. For example:   
+### Treatments / Stimuli
+> Describe any specific treatment or stimuli applied. For example:   
   - light or dark pulse stimuli;  
   - phase-shifting;    
   - changes in feeding time or food type;   
   - pharmacological treatments (drug name, concentration, brand and identifier number) 
-
-> Add timing of interventions - **use Zeitgeber time (ZT)**
+  - timing and duration of interventions - **use Zeitgeber time (ZT)**
 
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
   - Developmental stage and sex of monitored animals, as well as growth conditions if different that what has been described before. 
   - Monitoring system used (e.g., infrared motion sensors, videotracking (ViewPoint ZebraBoxes), etc.)
   - How data was recorded 
-  - Duration of recording, fish maintenance  
+  - Duration of recording, and fish maintenance during recording
   - Software name and version used in activity data analysis
   
 ### Spawning 
