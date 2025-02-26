@@ -39,7 +39,14 @@ This study was supported by [Funding Agency, Grant Number].
 ## Dataset Folder/File Overview
 Data file list: 
 
-> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.  
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.
+
+File formats: 
+
+> State the file formats used and how to open specific file formats when applicable.  
+> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
+> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts  still function after export. 
+
 
 Dataset structure:
 
