@@ -53,17 +53,19 @@ Dataset structure:
 
 > Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
 
- |--`Mice_monitoring_data/`       
- |  |--`wheel-running_raw.csv`              
- |  |--`wheel-running_analysed.csv`    
+ |--`zebrafish_actogram_data/`       
+ |  |--`14L10D_male.csv`              
+ |  |--`14L10D_female.csv`    
          
- |--`Brain_confocal_imaging/`  
- |  |--`SCN_control_S01`  
- |  |--`SCN_control_S02`    
- |  |--`SCN_control_S03`    
- |  |--`SCN_treatment_S01`    
- |  |--`SCN_treatment_S02`    
- |  |--`SCN_treatment_S03`    
+ |--`larval_moving_image_data/`  
+ |  |--`Control_S01`  
+ |  |--`Control_S02`    
+ |  |--`Control_S03`    
+ |  |--`Heat_treatment_S01`    
+ |  |--`Heat_treatment_S02`    
+ |  |--`Heat_treatment_S03` 
+
+ > In this example image data are represented by folders and image files are ommited for clarification due the large number of individual files. 
       
 # Methodological information 
 
@@ -74,7 +76,7 @@ Dataset structure:
  - Genotypes/ lines used
      - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable
  - Provenance of animals and lines. If new lines were generated, describe how this was done (e.g., generation of new knockout lines)
- - Age / developmental stage range used- for standard zebrafish developmental stages look [here](https://bioportal.bioontology.org/ontologies/ZFS?p=classes);  
+ - Age / developmental stage range used- *for standard zebrafish developmental stages* look [here](https://bioportal.bioontology.org/ontologies/ZFS?p=classes);  
  - How eggs were obtained
  - Sex;
  - If experiments were done in vivo / Ex vivo / In vitro;  
@@ -97,29 +99,36 @@ Dataset structure:
 
 ## Experimental design and conditions
 > Here you will describe your experimental design. For example, if fish were divided in different groups and the treatments applied to which group. Describe the control group.   
+> For *standards in Zebrafish experimental conditions*, please look [here](https://bioportal.bioontology.org/ontologies/ZECO?p=classes)
+
 > For any type of measurement, describe the animals that were selected for analysis and the number of samples.  
 > If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
 
+
 ### Treatments / Stimuli
 > Describe any specific treatment or stimuli applied. For example:   
-  - light or dark pulse stimuli;  
+  - light or dark pulse stimulus;
+  - heat or cold stimulus;
+  - UV stimulus
+  - mechanical disturbance stimulus;
   - phase-shifting;    
-  - changes in feeding time or food type;   
+  - changes in feeding time or food type;
+  - social isolation
   - pharmacological treatments (drug name, concentration, brand and identifier number) 
   - timing and duration of interventions - **use Zeitgeber time (ZT)**
 
 ### Live activity monitoring
 > Describe the activity monitoring system. Typical descriptions include:
   - Developmental stage and sex of monitored animals, as well as growth conditions if different that what has been described before. 
-  - Monitoring system used (e.g., infrared motion sensors, videotracking (ViewPoint ZebraBoxes), etc.)
+  - Monitoring system used (e.g., infrared motion sensors, infrared camera, video recording, videotracking (ViewPoint ZebraBoxes), etc.)
   - How data was recorded 
   - Duration of recording, and fish maintenance during recording
   - Software name and version used in activity data analysis
   
 ### Spawning 
 > Describe how spawning was analysed. 
-  - describe any specific apparatus used for that (e.g., specific tanks used as spawning boxes).  
+  - describe any specific apparatus used (e.g., specific tanks used as spawning boxes).  
   - number of males and females involved and their developmental stage
   - water quality and temperature during analysis
   - photoperiod (e.g., 14:10 light-dark cycles) and light intensity
@@ -150,7 +159,8 @@ Dataset structure:
 
 ## Data analysis
 > Describe how the data was analysed including any software used and its version.  
-> Include any data processing (detrending, smoothing, averaging, etc).  
+> Include any data processing (detrending, smoothing, averaging, etc).
+> Describe any statistical analysis.
 > Describe the methods used for period and phase analysis.   
      
 # Dataset usage and access
