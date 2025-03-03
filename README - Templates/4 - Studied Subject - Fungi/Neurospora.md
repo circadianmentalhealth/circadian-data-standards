@@ -70,66 +70,58 @@ Dataset structure:
 > Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
  - Species;  
- - Genotypes/ lines used
-     - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable
- - Provenance of animals and lines. If new lines were generated, describe how this was done (e.g., generation of new knockout lines)
- - Age / developmental stage range used- *for standard zebrafish developmental stages* look [here](https://bioportal.bioontology.org/ontologies/ZFS?p=classes);  
- - How eggs were obtained
- - Sex;
- - If experiments were done in vivo / Ex vivo / In vitro;  
- - Sample type collected: Whole fish / organ / tissues/ cells / extracts.
- - Number of animals studied
-
-## Husbandry 
-> Describe the conditions where the animals were grown. 
+ - List of genotypes/ strains used 
+     - include designations (e.g., *wt*, *mutant_name*) and unique identifiers when applicable.  
+     - describe the strain (e.g., period defect KO).  
+     - Include the provenance of strains. If new strains were generated, describe how this was done.
+ 
+## Growth conditions
+> Describe the growth conditions. 
 > Differentiate Control condition from Treatment conditions when applicable. 
-> Differentiate embryo and adult fish conditions when applicable.     
-> Typical descriptions will include:  
-  - Feeding: type of diet / food availability / time when food was offered  
-  - Housing:
-    - Tank description including water volume. Include a link to commercial tanks where applicable. 
-    - Number of individuals per container (e.g., embryo density per petri dish or number of adult fish per tank) 
-    - Water quality/ treatment (e.g., dechlorinated, salt content, anti-fungal treatment, oxygenation) 
-    - Water pH, temperature, conductivity
-    - Frequency of water change
-  - Entrainment: add light/dark cycles where fish were entrained and the light intensity and light type when applicable. 
+> Differentiate growth conditions for vegetative growth, inoculation and colony isolation when applicable
+> Typical descriptions will include:
+  - Liquid/ solid media
+  - Culture medium used 
+  - Supplementation of culture medium including its concentration and source of chemicals. E.g.,: 2% glucose (CAS 50-99-7, Sigma-Aldrich) and  200 μg/ml hygromycin B (CAS 31282-04-9, ThermoFischer).
+  - Volume of growth medium 
+  - Growth temperature
+  - Incubation time
+  - Incubator used (e.g., Percival) 
+  - Entrainment: add light/dark cycles and temperature where cultures were entrained and the light intensity when applicable.
+  - Light/dark conditions and temperature during analysis if different from entraining 
 
 ## Experimental design and conditions
-> Here you will describe your experimental design. For example, if fish were divided in different groups and the treatments applied to which group. Describe the control group.   
-> For *standards in Zebrafish experimental conditions*, please look [here](https://bioportal.bioontology.org/ontologies/ZECO?p=classes)
-
-> For any type of measurement, describe the animals that were selected for analysis and the number of samples.  
-> If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Imaging experiments and a separate README file for gene expression experiments.  
+> Here you will describe your experimental design. 
+> For any type of measurement, cite the strains used for analysis and the number of replicates used.  
+> If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Luciferase assay and a separate README file for RNA sequencing.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
-
 
 ### Treatments / Stimuli
 > Describe any specific treatment or stimuli applied. For example:   
   - light or dark pulse stimulus;
   - heat or cold stimulus;
-  - UV stimulus
-  - mechanical disturbance stimulus;
-  - phase-shifting;    
-  - changes in feeding time or food type;
-  - social isolation
-  - pharmacological treatments (drug name, concentration, brand and identifier number) 
+  - starvation
+  - chemical treatments (drug name, concentration, brand and identifier number) 
   - timing and duration of interventions - **use Zeitgeber time (ZT)**
 
-### Live activity monitoring
-> Describe the activity monitoring system. Typical descriptions include:
-  - Developmental stage and sex of monitored animals, as well as growth conditions if different that what has been described before. 
-  - Monitoring system used (e.g., infrared motion sensors, infrared camera, video recording, videotracking (ViewPoint ZebraBoxes), etc.)
-  - How data was recorded 
-  - Duration of recording, and fish maintenance during recording
-  - Software name and version used in activity data analysis
+### Race tube assay
+> Describe the race tube assay.
+  - Race tube medium.  
+  - Origin of inoculum.  
+  - Light/ dark and temperature conditions during analysis.  
+  - Duration of analysis and measurement frequency.  
+  - Describe how analysis was performed including any software and its version.
   
-### Spawning 
-> Describe how spawning was analysed. 
-  - describe any specific apparatus used (e.g., specific tanks used as spawning boxes).  
-  - number of males and females involved and their developmental stage
-  - water quality and temperature during analysis
-  - photoperiod (e.g., 14:10 light-dark cycles) and light intensity
-  - describe how spawning was recorded and how the eggs were counted (include any software used and its version) 
+### Luciferase assay
+> Describe the Luciferase assay.
+  - Plates used.  
+  - Growth medium.  
+  - Medium supplementation including Luciferin. Add concentration and provenance of chemicals (e.g., 25 μM firefly luciferin (LUCNA-300; Gold Biotechnology, St. Louis, MO).  
+  - Origin of inoculum.
+  - Light/ dark and temperature conditions during experiment
+  - Equipment and software used for bioluminescence measurements
+  - Periodicity and duration of measurements (e.g., recordings were taken every 60 min over 5 days)
+
    
 ### Sample preparation
 > When the experiment involves euthanasia and sample preparation, include: 
@@ -140,19 +132,7 @@ Dataset structure:
    - Sample preparation protocol
    - Number of biological samples analysed
 
-### Imaging
-> If not described earlier in sample preparation, include a description of sample preparation and mounting for imaging or add links to corresponding protocols.
-   - Imaging method: (e.g. fluorescence microscopy, bioluminescence, etc)
-   - Image acquisition:   
-     - Instrument used
-     - Image acquisition parameters (filters used, magnification, etc.)
 
-   - Image data:
-     - Describe if you are sharing raw, processed, and/or segmented images.
-     - File formats
-     - Image dimensions
-     - Channel information
-     - Image processing methodology
 
 ## Data analysis
 > Describe how the data was analysed including any software used and its version.  
