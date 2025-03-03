@@ -50,19 +50,16 @@ Dataset structure:
 
 > Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
 
- |--`zebrafish_actogram_data/`       
- |  |--`14L10D_male.csv`              
- |  |--`14L10D_female.csv`    
+ |--`N_crassa_luciferase_assay/`       
+ |  |--`mutant_period_analysis.csv`          
+ |  |--`mutant_raw_data.csv`  
+ |  |--`wt_period_analysis.csv`  
+ |  |--`wt_raw_data.csv`  
          
- |--`larval_moving_image_data/`  
- |  |--`Control_S01`  
- |  |--`Control_S02`    
- |  |--`Control_S03`    
- |  |--`Heat_treatment_S01`    
- |  |--`Heat_treatment_S02`    
- |  |--`Heat_treatment_S03` 
-
- > In this example image data are represented by folders and image files are ommited for clarification due the large number of individual files. 
+ |--`N_crassa_ChIP_GO_analysis/`    
+ |  |--`Gene1_ChIP_seq_targets.tsv`  
+ |  |--`Gene1_GO_analysis.tsv` 
+ 
       
 # Methodological information 
 
@@ -122,17 +119,26 @@ Dataset structure:
   - Equipment and software used for bioluminescence measurements
   - Periodicity and duration of measurements (e.g., recordings were taken every 60 min over 5 days)
    
-### Protein analysis
-
-
-
-
+### Protein / Transcriptomics / ChIP-seq analysis 
+> Describe throughly any other analysis such Western Blots, norhtern blots, RNA sequencing, etc. For example:  
+> - Include detailed protocols for DNA/ RNA / protein extraction  
+> - Include detailed protocols for library sequencing  
+> - Include detailed protocols for protein separation. Add a list or link to buffers and reagents used.
+> If protocols are described in detail elsewhere, include the link to them (preferably a DOI when possible).
+> Some minimum reporting and information standards are available for consultation when describing such experiments. For example:  
+> 
+>**Western Blots**  
+> - [Minimal-Reporting-Standards-Data-Collection-Work-Sheet-for-Western-Blot-Research-with-the-BlotCycler.pdf](https://precisionbiosystems.com/wp-content/uploads/2016/11/Minimal-Reporting-Standards-Data-Collection-Work-Sheet-for-Western-Blot-Research-with-the-BlotCycler.pdf)  
+> - [Western Blotting Minimal Reporting Standard (WBMRS)](https://doi.org/10.1371/journal.pone.0135392.t002)  
+>
+>  **High-throughput nucleotide SEQuencing Experiment**  
+> - [MINSEQE describes the Minimum Information about a high-throughput nucleotide SEQuencing Experiment](https://doi.org/10.5281/zenodo.5706412)  
 
 ## Data analysis
-> Describe how the data was analysed including any software used and its version.  
-> Include any data processing (detrending, smoothing, averaging, etc).
-> Describe any statistical analysis.
-> Describe the methods used for period and phase analysis.   
+> Describe how the data was analysed including any software used and its version.    
+> Include any data processing (detrending, smoothing, averaging, etc).  
+> Describe any statistical analysis.  
+> Describe the methods used for period and phase analysis.     
      
 # Dataset usage and access
 
