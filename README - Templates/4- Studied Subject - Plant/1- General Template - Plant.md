@@ -104,10 +104,9 @@ Dataset structure:
 
 ### Luciferase assay
 > Describe the Luciferase assay.
-  - Plates used.  
-  - Growth medium.  
+  - Developmental stage of plant used  
+  - Growth medium  
   - Medium supplementation including Luciferin. Add concentration and provenance of chemicals (e.g., 25 μM firefly luciferin (LUCNA-300; Gold Biotechnology, St. Louis, MO).  
-  - Origin of inoculum.
   - Light/ dark and temperature conditions during experiment
   - Equipment and software used for bioluminescence measurements
   - Periodicity and duration of measurements (e.g., recordings were taken every 60 min over 5 days)
@@ -115,9 +114,10 @@ Dataset structure:
 ### Protein / Transcriptomics / ChIP-seq analysis etc
 > Describe throughly any other analysis such RNA sequencing, ChIP-seq, RT-qPCR, metabolomics etc. For example:  
 > - Include detailed protocols for DNA/ RNA / protein extraction  
-> - Include detailed protocols for library sequencing  
-> - Include all primers used and gene expression analysis protocol
+> - Include detailed protocols for library sequencing    
+> - Include all primers used and gene expression analysis protocol  
 > - Number of biological replicates
+> 
 > If protocols are described in detail elsewhere, include the link to them (preferably a DOI when possible).
 > Some minimum reporting and information standards are available for consultation when describing such experiments. For example:  
 > 
