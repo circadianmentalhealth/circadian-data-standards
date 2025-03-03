@@ -121,16 +121,10 @@ Dataset structure:
   - Light/ dark and temperature conditions during experiment
   - Equipment and software used for bioluminescence measurements
   - Periodicity and duration of measurements (e.g., recordings were taken every 60 min over 5 days)
-
    
-### Sample preparation
-> When the experiment involves euthanasia and sample preparation, include: 
-   - Animals selected for euthanasia (sex, developmental stage)
-   - Time when animals were euthanized
-   - Euthanasia method (e.g., ice water or chemical)
-   - Sample collected from fish - 
-   - Sample preparation protocol
-   - Number of biological samples analysed
+### Protein analysis
+
+
 
 
 
