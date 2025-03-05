@@ -96,8 +96,15 @@
 ---
 ## Methodology
  
-- **Data Analysis**
-  Qualitative Analysis: Thematic coding performed using NVivo/ATLAS.ti.
+- **Ethical Approvals**
+  This study was approved by [Institutional Review Board Name, Approval Number]. Participants provided informed consent.
+
+- **Data Collection**  
+  Explain the interview protocol and tools used for recording.
+
+- **Data Processing**  
+  - Describe transcription and anonymization steps.  
+  - Mention any software used for transcription or coding (e.g., NVivo).
 
 ---
 
