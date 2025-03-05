@@ -7,6 +7,9 @@
 - **Title of Dataset**  
   Provide the dataset title (e.g., "Light Exposure and Sleep Activity Data").
 
+- **Description**  
+  Briefly describe the datasets
+
 - **Author(s)/Contributor(s)**
   [Name], [Affiliation], [Email]
   [Name], [Affiliation], [Email]
@@ -18,24 +21,6 @@
 - **DOI or Persistent Identifier** [Insert DOI or repository link if available]
 
 ## Dataset Overview
-
-- **Dictionary Structure**
-
-  ├── Device_Tracker_Data/       
-  │   ├── raw_tracker_data.csv        
-  │   ├── processed_tracker_data.csv        
-  │       
-  ├── Documentation/       
-  │   ├── Data_Dictionary.xlsx      
-  │   ├── README.md  
-
-- **Device Specifications**  
-  - Name, model, and manufacturer of the device.  
-  - Firmware or software versions used.
-
-- **Data Format**  
-  - Explain the structure of the files (e.g., CSV, JSON).  
-  - Provide details on key variables (e.g., timestamps, light exposure).
 
 - **Data Dictionary**
 
@@ -51,7 +36,7 @@
   - Explain calibration processes.  
   - Describe sampling intervals (e.g., "Data recorded every 30 seconds").
 
-- **Data Analysis**
+- **Data Analysis** 
   Software used: Python (pandas, numpy), R (tidyverse), MATLAB.
   Analysis includes correlation tests, regression modeling, and clustering.
 
@@ -63,6 +48,10 @@
 
 - **Citing the Dataset**  
   Provide citation details.
+
+- **Related Publications/Protocols**
+  [Related research paper]
+  [Study protocol link]
 ---
 
 # 2- Extanded Part
@@ -84,6 +73,24 @@
 
 ## Dataset Overview
 
+- **Dictionary Structure**
+
+  ├── Device_Tracker_Data/       
+  │   ├── raw_tracker_data.csv        
+  │   ├── processed_tracker_data.csv        
+  │       
+  ├── Documentation/       
+  │   ├── Data_Dictionary.xlsx      
+  │   ├── README.md  
+
+- **Device Specifications**  
+  - Name, model, and manufacturer of the device.  
+  - Firmware or software versions used.
+
+- **Data Format**  
+  - Explain the structure of the files (e.g., CSV, JSON).  
+  - Provide details on key variables (e.g., timestamps, light exposure).
+
 - **Participant Instructions**  
   Describe how participants were instructed to use the device (e.g., "Wear on the non-dominant wrist for 14 days").
 
@@ -101,6 +108,4 @@
 - **Usage Instructions**  
   Include guidelines for interpreting device data (e.g., "Activity levels are measured in arbitrary units").
 
-- **Related Publications/Protocols**
-  [Related research paper]
-  [Study protocol link]
+
