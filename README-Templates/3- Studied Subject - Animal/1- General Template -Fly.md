@@ -22,7 +22,7 @@ YYYY-MM-DD
 > Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)
 
 ### Description
-> Briefly describe the dataset content
+> Briefly describe the dataset content, including studied organism and basic methods used. 
 
 ### Format
 > Add data file formats and include instructions on how to open specific formats when applicable.
@@ -44,12 +44,12 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 
 > For **code / software** we recommend [MIT licence](https://opensource.org/license/mit) for its simplicity. However, other types of open source licenses and their descriptions can be found in [Open Source Initiative ] (https://opensource.org/licenses)
 
-### Related Publications/Protocols
+### Related resources 
 > Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset.
 
 ---
 
-# Desirable (Expanded) Metadata Elements
+# README template - Extended Metadata Elements
 > In addition to the Essential elements, we recommend adding the following suggested sections for increased reproducibility and reusability of the dataset. 
 
 ## General information
@@ -80,7 +80,6 @@ File formats:
 > State the file formats used and how to open specific file formats when applicable.   
 > Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
 > Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts  still function after export.   
-
 
 Dataset structure:
 
