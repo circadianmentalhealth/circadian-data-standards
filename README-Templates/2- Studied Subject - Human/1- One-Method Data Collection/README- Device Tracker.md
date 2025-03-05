@@ -1,6 +1,6 @@
 # README: Device Tracker Dataset
 
-# 1- Core Part 
+# 1- Essential (Core) Metadata Elements  
 
 ## General Information
 
@@ -46,15 +46,12 @@
 - **Licence** 
   [Specify license, e.g., CC BY 4.0]
 
-- **Citing the Dataset**  
-  Provide citation details.
-
 - **Related Publications/Protocols**
   [Related research paper]
   [Study protocol link]
 ---
 
-# 2- Extanded Part
+# 2- Extanded Metadata Elements 
 
 ## General Information
 
@@ -108,4 +105,5 @@
 - **Usage Instructions**  
   Include guidelines for interpreting device data (e.g., "Activity levels are measured in arbitrary units").
 
-
+- **Citing the Dataset**  
+  Provide citation details.
