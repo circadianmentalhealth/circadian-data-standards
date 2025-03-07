@@ -25,7 +25,7 @@ YYYY-MM-DD
 > Briefly describe the dataset content, including studied organism and basic methods used. 
 
 ### Format
-> Add data file formats and include instructions on how to open specific formats when applicable.
+> Add data file formats. Include instructions on how to open uncommon or proprietary formats, if these are unavoidable.
 
 ## Dataset usage and access
 
