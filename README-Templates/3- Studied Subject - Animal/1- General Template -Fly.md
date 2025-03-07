@@ -1,6 +1,8 @@
 # README template - Essential (Core) Metadata Elements
+> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.
 
-## General information
+## General information section
+> You can refer to the Extended metadata (below), where you add more detailed information.
 
 ### Title 
 > A descriptive name given to the dataset.
@@ -25,12 +27,12 @@ YYYY-MM-DD
 > Briefly describe the dataset content, including studied organism and basic methods used. 
 
 ### Format
-> Add data file formats. Include instructions on how to open uncommon or proprietary formats, if these are unavoidable.
+> List the data file formats. Explain how to open files in uncommon or proprietary formats, if these are unavoidable.
 
-## Dataset usage and access
+## Dataset usage and access section
 
 ### Licence
-> For data that do not include code/ software, we recommend choosing one of the licenses below:
+> For data that do not include code/ software, we recommend either a CC-BY or a CC0 license: keep the text for one, delete the other!
 
 This dataset is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 You are free to use, share, and adapt this dataset as long as you give appropriate credit.
@@ -50,9 +52,9 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 ---
 
 # README template - Extended Metadata Elements
-> In addition to the Essential elements, we recommend adding the following suggested sections for increased reproducibility and reusability of the dataset. 
+> Add this information to help others to understand, re-use and cite your data correctly. 
 
-## General information
+## General information section
 
 ### Purpose (Research Hypothesis)
 > The overall rationale, reason, or intention for conducting a study that resulted in the data set.   
@@ -79,7 +81,7 @@ This study was supported by [Funding Agency, Grant Number].
 
 > State the file formats used and how to open specific file formats when applicable.   
 > Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
-> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts  still function after export.   
+> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
 
 #### Dataset structure
 
@@ -97,7 +99,7 @@ This study was supported by [Funding Agency, Grant Number].
  |  |--`clock_mutant_S02`    
  |  |--`clock_mutant_S03`    
 
-## Methodological information 
+## Methodological information section
  
 ### Biosample
 > Description of biological entity that was monitored / measured/ experimented on.    
@@ -192,7 +194,7 @@ This study was supported by [Funding Agency, Grant Number].
 > Include any data processing (detrending, smoothing, averaging, etc).  
 > Describe the methods used for period and phase analysis.
 
-## Dataset usage and access
+## Dataset usage and access section
 
 ### Usage Instructions 
 > Include guidelines for reproducing or reusing the data or to open specific file formats. 
