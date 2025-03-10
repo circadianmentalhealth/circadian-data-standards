@@ -99,6 +99,8 @@ This study was supported by [Funding Agency, Grant Number].
  |  |--`clock_mutant_S02`    
  |  |--`clock_mutant_S03`    
 
+ > In this example image data are represented by folders and image files are ommited for clarification due the large number of individual files.
+
 ## Methodological information section
  
 ### Biosample
