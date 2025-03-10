@@ -29,7 +29,7 @@ YYYY-MM-DD
 ### Format
 > List the data file formats. Explain how to open files in uncommon or proprietary formats, if these are unavoidable.
 
-## Dataset usage and access section
+## Dataset usage and access 
 
 ### Licence
 > For data that do not include code/ software, we recommend either a CC-BY or a CC0 license: keep the text for one, delete the other!
@@ -44,7 +44,7 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 
 > Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a licence made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
 
-> For **code / software** we recommend [MIT licence](https://opensource.org/license/mit) for its simplicity. However, other types of open source licenses and their descriptions can be found in [Open Source Initiative ] (https://opensource.org/licenses)
+> For **code / software** we recommend [MIT licence](https://opensource.org/license/mit) for its simplicity. However, other types of open source licenses and their descriptions can be found in [Open Source Initiative ](https://opensource.org/licenses)
 
 ### Related resources 
 > Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset.
