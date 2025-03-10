@@ -1,5 +1,68 @@
 # README: Questionnaire and Survey Dataset
 
+# 1- Essential (Core) Metadata Elements 
+
+## General Information
+
+- **Title of Dataset**  
+  Provide the dataset name (e.g., "Sleep Patterns and Mental Health Survey, 2023").
+
+- **Description**  
+  Briefly describe the datasets
+
+- **Author(s)/Contributor(s)**
+  [Name], [Affiliation], [Email]
+  [Name], [Affiliation], [Email]
+
+  The Corresponding author is: [Author Name]
+
+- **Date of Creation/Release**  [YYYY-MM-DD]
+  Specify when the survey data was collected and released.
+
+- **DOI or Persistent Identifier** [Insert DOI or repository link if available]
+
+## Dataset Overview
+
+- **Dictionary Structure**
+
+- **Survey Details**  
+  - Name and version of the survey instrument used (e.g., "Pittsburgh Sleep Quality Index, v2").
+  - Description of survey structure (e.g., number of questions, type of response scales).
+  - Validation references for the survey tool.
+
+- **Data Dictionary**  
+  Provide a table describing variables (e.g., question text, response options, and scoring).
+| **Variable**     | **Description**                | **Type**     |  
+|------------------|--------------------------------|--------------|  
+| `participant_id` | Unique ID for participants     | Categorical  |  
+| `age`            | Age in years                   | Numeric      |
+| `Q1`             | Binary answer (YES/NO)         | Categorical  |
+
+
+## Methodology
+
+- **Data Collection**  
+  - Explain calibration processes.
+  - Describe where and how the answers were collected (e.g. Participants completed an online questionnaire using [Survey Platform].)`
+
+- **Data Analysis**
+  Software used: Python (pandas, numpy), R (tidyverse), MATLAB.
+  Analysis includes correlation tests, regression modeling, and clustering.
+ 
+## Usage and Access
+
+- **License**  
+  Specify the sharing license (e.g., `CC BY 4.0`).
+
+- **Related Publications/Protocols**
+  [Related research paper]
+  [Study protocol link]
+
+
+---
+
+# 2- Extanded Metadata Elements 
+
 ## General Information
 
 - **Summary/Abstract**  
@@ -7,26 +70,13 @@
 
 - **Purpose/Objective**  
   Explain why the survey was conducted and its intended research or clinical use.
-
-- **Title of Dataset**  
-  Provide the dataset name (e.g., "Sleep Patterns and Mental Health Survey, 2023").
-
-- **Author(s)/Contributor(s)**  
-  Include names, affiliations, and contact information of contributors.
-
-- **Date of Creation/Release**  
-  Specify when the survey data was collected and released.
-
+  
 - **Dataset Version** v1.0
-
-- **DOI or Persistent Identifier** [Insert DOI or repository link if available]
 
 - **Funding Information** This study was supported by [Funding Agency, Grant Number].
 
 - **Acknowledgments**
   We acknowledge the contributions of [Institution, Participants, Collaborators]
-
----
 
 ## Dataset Overview
 
@@ -40,24 +90,9 @@
   │   ├── Data_Dictionary.xlsx      
   │   ├── README.md 
 
-- **Survey Details**  
-  - Name and version of the survey instrument used (e.g., "Pittsburgh Sleep Quality Index, v2").
-  - Description of survey structure (e.g., number of questions, type of response scales).
-  - Validation references for the survey tool.
-
 - **Participant Information**  
   - Recruitment method (e.g., random sampling, convenience sampling).  
   - Demographics of the participants (e.g., age range, gender distribution).
-
-- **Data Dictionary**  
-  Provide a table describing variables (e.g., question text, response options, and scoring).
-| **Variable**     | **Description**                | **Type**     |  
-|------------------|--------------------------------|--------------|  
-| `participant_id` | Unique ID for participants     | Categorical  |  
-| `age`            | Age in years                   | Numeric      |
-| `Q1`             | Binary answer (YES/NO)         | Categorical  |
-
----
 
 ## Methodology
 
@@ -71,19 +106,10 @@
 - **Data Processing**  
   Explain steps taken to clean or preprocess the survey responses.
 
-- **Data Analysis**
-  Software used: Python (pandas, numpy), R (tidyverse), MATLAB.
-  Analysis includes correlation tests, regression modeling, and clustering.
-
 - **Ethical Considerations**  
   Mention IRB approvals and consent procedures.
-
----
   
 ## Usage and Access
-
-- **License**  
-  Specify the sharing license (e.g., `CC BY 4.0`).
 
 - **Usage Instructions**  
   - Provide information on interpreting response scales.  
@@ -91,10 +117,3 @@
 
 - **Citing the Dataset**  
   Provide a citation format.
-
-- **Related Publications/Protocols**
-  [Related research paper]
-  [Study protocol link]
-
-
-
