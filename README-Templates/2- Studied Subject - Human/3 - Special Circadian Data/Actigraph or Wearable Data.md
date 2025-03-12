@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This dOCUMENTS  provides standardised reporting guidelines for actigraphy-based sleep and circadian rhythm studies. It details device specifications, data collection methodologies, and processing techniques. Researchers using wearable sensor data should ensure all critical details are documented for reproducibility and transparency.
+This Document  provides standardised reporting guidelines for actigraphy-based sleep and circadian rhythm studies. It details device specifications, data collection methodologies, and processing techniques. Researchers using wearable sensor data should ensure all critical details are documented for reproducibility and transparency.
 
 ## Sections to Include
 
