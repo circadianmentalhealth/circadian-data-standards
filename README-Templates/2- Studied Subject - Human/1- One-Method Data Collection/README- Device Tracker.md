@@ -22,6 +22,9 @@
 
 ## Dataset Overview
 
+- **Data Format**:
+  Describe the file formats of your data and provide instructions on how to access and open them, especially if you are using less common or non-open formats.
+  
 - **Data Dictionary**
 
 | **Variable**     | **Description**                | **Type**     |  
