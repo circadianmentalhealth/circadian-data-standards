@@ -73,7 +73,7 @@
 
 ---
 
-# 2- Extanded Metadata Elements 
+# 2- Extended Metadata Elements 
 
 ## General Information
 
