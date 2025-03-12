@@ -24,11 +24,10 @@
 
 ## Dataset Overview
 
-- **Data Format**:
+- **Data Format**       
   Describe the file formats of your data and provide instructions on how to access and open them, especially if you are using less common or non-open formats.
 
-- **Dataset Description***
-
+- **Dataset Description**
   Interview_Data/: Contains interview transcripts, audio recordings (if applicable), and metadata.
   Laboratory_Sample_Data/: Includes raw and processed data from biological samples (e.g., blood, saliva, hair cortisol).
   Documentation/: Metadata files describing variables, data dictionary, and study protocols.
@@ -37,7 +36,7 @@
   Describe how participants were instructed to use the device (e.g., "Wear on the non-dominant wrist for 14 days").
 
 - **Data Dictionary**
-
+- 
 | **Variable**     | **Description**                | **Type**     |  
 |------------------|--------------------------------|--------------|  
 | `participant_id` | Unique ID for participants     | Categorical  |  
