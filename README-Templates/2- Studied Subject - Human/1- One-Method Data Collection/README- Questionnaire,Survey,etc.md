@@ -23,7 +23,8 @@
 
 ## Dataset Overview
 
-- **Dictionary Structure**
+- **Data Format**:
+  Describe the file formats of your data and provide instructions on how to access and open them, especially if you are using less common or non-open formats.*
 
 - **Survey Details**  
   - Name and version of the survey instrument used (e.g., "Pittsburgh Sleep Quality Index, v2").
