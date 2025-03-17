@@ -1,52 +1,88 @@
-# General information
+# README template - Essential (Core) Metadata Elements
+> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.
 
-## Title: 
+## General information section
+> You can refer to the Extended metadata (below), where you add more detailed information.
+
+### Title 
 > A descriptive name given to the dataset.
 
-## Authors / contributors
-> List of people of dataset creators and contributors.  
-> Use `FirstName LastName` format, each contributor name should be in a separate line which starts with `-`.  
-> See the example entry bellow
-- Ana Student
-- Tom Thorough
-- Diana Helpful *  
-*corresponding author [diana.help@edu.uni.uk]
+### Creator
+> List of dataset creators and contributors and their respective emails.  
+> Use `FirstName LastName` format. Each contributor name should be in a separate line which starts with `-`.  
+> See the example entry bellow:
 
-## Date: YYYY-MM-DD
+- Ana Student [Ana.Student@edu.uni.uk]   
+- Tom Thorough [Tom.Thorough@edu.otheruni.uk]  
+- Diana Helpful*  [diana.help@edu.uni.uk]  
+*corresponding author 
+
+### Date
+YYYY-MM-DD
 > A point in time associated with the lifecycle of the dataset.  
 > Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
-> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)  
+> Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)
 
-## Purpose (Research Hypothesis)
+### Description
+> Briefly describe the dataset content, including studied organism and basic methods used. 
+
+### File Formats
+> **If using standard file formats such as .csv, .fasta, .tiff, etc, you can skip this section**
+> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
+> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
+> If using uncommon or proprietary formats is unavoidable, list the data file formats and explain how to open the files.
+
+## Dataset usage and access 
+
+### Licence
+> For data that do not include code/ software, we recommend either a CC-BY or a CC0 license: keep the text for one, delete the other!
+
+This dataset is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+You are free to use, share, and adapt this dataset as long as you give appropriate credit.
+
+>**or**
+
+This dataset is released under the [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/). 
+You are free to copy, modify, distribute, and use the data without restrictions.
+
+> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a licence made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
+
+> For **code / software** we recommend [MIT licence](https://opensource.org/license/mit) for its simplicity. However, other types of open source licenses and their descriptions can be found in [Open Source Initiative ](https://opensource.org/licenses)
+
+### Related resources 
+> Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset.
+
+---
+
+# README template - Extended Metadata Elements
+> Add this information to help others to understand, re-use and cite your data correctly. 
+
+## General information section
+
+### Purpose (Research Hypothesis)
 > The overall rationale, reason, or intention for conducting a study that resulted in the data set.   
 > Or the hypothesis that a study sets out to support (or disprove);
 
-## Abstract
+### Abstract
 > A summary of the content of the dataset.  
-> Should include a brief information about the biological material, techniques used and measurement/experimental conditions. 
-> The comprehensives details are to be recorded in sections below. 
+> Should include a brief information about the biological material, technique used and measurement/experimental conditions. 
+> The comprehensives details are to be recorded in sections below.
 > Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
 
-## Funding Information 
+### Funding Information 
 This study was supported by [Funding Agency, Grant Number].
 
-## Acknowledgments
+### Acknowledgments
 > Add any acknowledgements
 
-## Dataset Folder/File Overview
-Data file list: 
+### Dataset Folder/File Overview
 
-> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.   
-> Filenames should include extension. 
+#### Data files list 
 
-File formats: 
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.  
+> Filenames should include extension (state the file formats used)
 
-> State the file formats used and how to open specific file formats when applicable. 
-> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
-> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts (e.g., MATLAB) still function after export. 
-
-
-Dataset structure:
+#### Dataset structure
 
 > Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
 
@@ -61,9 +97,9 @@ Dataset structure:
  |  |--`Gene1_GO_analysis.tsv` 
  
       
-# Methodological information 
+## Methodological information section
 
-## Biosample description
+### Biosample
 > Description of biological entity that was monitored / measured/ experimented on.    
 > Typical content will have information about:
  - Species;  
@@ -72,7 +108,7 @@ Dataset structure:
      - describe the strain (e.g., period defect KO).  
      - Include the provenance of strains. If new strains were generated, describe how this was done.
  
-## Growth conditions
+### Growth conditions
 > Describe the growth conditions. 
 > Differentiate Control condition from Treatment conditions when applicable. 
 > Differentiate growth conditions for vegetative growth, inoculation and colony isolation when applicable
@@ -87,13 +123,13 @@ Dataset structure:
   - Entrainment: add light/dark cycles and temperature where cultures were entrained and the light intensity when applicable.
   - Light/dark conditions and temperature during analysis if different from entraining 
 
-## Experimental design and conditions
+### Experimental design and conditions
 > Here you will describe your experimental design. 
 > For any type of measurement, cite the strains used for analysis and the number of replicates used.  
 > If necessary, include separate README files for each experiment type (measured data type). For example, a separate README file for Luciferase assay and a separate README file for RNA sequencing.  
 > Describe measured techniques and the measured data. Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work: 
 
-### Treatments / Stimuli
+#### Treatments / Stimuli
 > Describe any specific treatment or stimuli applied. For example:   
   - light or dark pulse stimulus;
   - heat or cold stimulus;
@@ -101,7 +137,7 @@ Dataset structure:
   - chemical treatments (drug name, concentration, brand and identifier number) 
   - timing and duration of interventions - **use Zeitgeber time (ZT)**
 
-### Race tube assay
+#### Race tube assay
 > Describe the race tube assay.
   - Race tube medium.  
   - Origin of inoculum.  
@@ -109,7 +145,7 @@ Dataset structure:
   - Duration of analysis and measurement frequency.  
   - Describe how analysis was performed including any software and its version.
   
-### Luciferase assay
+#### Luciferase assay
 > Describe the Luciferase assay.
   - Plates used.  
   - Growth medium.  
@@ -119,7 +155,7 @@ Dataset structure:
   - Equipment and software used for bioluminescence measurements
   - Periodicity and duration of measurements (e.g., recordings were taken every 60 min over 5 days)
    
-### Protein / Transcriptomics / ChIP-seq analysis 
+#### Protein / Transcriptomics / ChIP-seq analysis 
 > Describe throughly any other analysis such Western Blots, norhtern blots, RNA sequencing, etc. For example:  
 > - Include detailed protocols for DNA/ RNA / protein extraction  
 > - Include detailed protocols for library sequencing  
@@ -134,24 +170,19 @@ Dataset structure:
 >  **High-throughput nucleotide SEQuencing Experiment**  
 > - [MINSEQE describes the Minimum Information about a high-throughput nucleotide SEQuencing Experiment](https://doi.org/10.5281/zenodo.5706412)  
 
-## Data analysis
+### Data analysis
 > Describe how the data was analysed including any software used and its version.    
 > Include any data processing (detrending, smoothing, averaging, etc).  
 > Describe any statistical analysis.  
 > Describe the methods used for period and phase analysis.     
      
-# Dataset usage and access
+## Dataset usage and access section
 
-## Licence
-This dataset is shared under [Insert licence here]
-> Generally, CC-BY 4.0 works well for scientific data as it states that data may be used freely, but attribution must be given to the original authors of the dataset. Another option is CC0, a licence made to reduce any legal and technical impediments to data sharing. CC0 provides creators a way to waive all their copyright and related rights in their works to the fullest extent allowed by law. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. i.e., it does not exempt researchers from the obligation of citing the original data authors. 
-
-## Usage Instructions 
+### Usage Instructions 
 > Include guidelines for reproducing or reusing the data or to open specific file formats. 
 
-## Citing the Dataset
+### Citing the Dataset
 > Provide citation details.
 
-## Related Publications/Protocols
-> Include links (preferably a DOI) of any other datasets, publications and protocols that are related to this dataset. 
+
 
