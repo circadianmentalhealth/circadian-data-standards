@@ -27,10 +27,10 @@ YYYY-MM-DD
 > Briefly describe the dataset content, including studied organism and basic methods used. 
 
 ### File Formats
-> **If using standard file formats such as .csv, .fasta, .tiff, etc, you can skip this section**
+> **If using standard file formats such as .csv, .fasta, .tiff, etc, you can skip this section.**
 > Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
 > Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
-> If using uncommon or proprietary formats is unavoidable, list the data file formats and explain how to open the files.
+> **If using uncommon or proprietary formats is unavoidable, list the data file formats and explain how to open the files.**
 
 ## Dataset usage and access 
 
