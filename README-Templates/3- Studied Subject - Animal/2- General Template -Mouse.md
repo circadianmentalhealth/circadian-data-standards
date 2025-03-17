@@ -25,8 +25,11 @@ YYYY-MM-DD
 ### Description
 > Briefly describe the dataset content, including studied organism and basic methods used. 
 
-### Format
-> List the data file formats. Explain how to open files in uncommon or proprietary formats, if these are unavoidable.
+### File Formats
+> **If using standard file formats such as .csv, .fasta, .tiff, etc, you can skip this section.**  
+> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.    
+> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.     
+> **If using uncommon or proprietary formats is unavoidable, list the data file formats and explain how to open the files.**
 
 ## Dataset usage and access 
 
@@ -77,13 +80,8 @@ Include ethical approval number and the guidelines used to conduct the experimen
 ### Dataset Folder/File Overview
 #### Data files list 
 
-> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files. Filenames should include extension.
-
-#### File formats 
-
-> State the file formats used and how to open specific file formats when applicable.   
-> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
-> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
+> All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.  
+> Filenames should include extension (state the file formats used). 
 
 #### Dataset structure
 
