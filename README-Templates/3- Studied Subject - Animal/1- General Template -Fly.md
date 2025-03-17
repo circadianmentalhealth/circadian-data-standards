@@ -81,12 +81,6 @@ This study was supported by [Funding Agency, Grant Number].
 > All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.  
 > Filenames should include extension (state the file formats used)
 
-#### File formats 
-
-> State the file formats used and how to open specific file formats when applicable.   
-> Export any proprietary file formats to open formats whenever possible. For example, export images saved as .czi or .lif (Zeiss and Leica formats) to .tiff, or data saved as .mat or .spss to .csv or .json.  
-> Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
-
 #### Dataset structure
 
 > Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
@@ -195,7 +189,7 @@ This study was supported by [Funding Agency, Grant Number].
 > Include all details necessary to reproduce the data. This might include links to external protocols.    
 > For genomic data see [Gene expression omnibus guidelines](https://www.ncbi.nlm.nih.gov/geo/info/MIAME.html), where they describe critical elements to include in genomic datasets
 
-## Data analysis
+### Data analysis
 > Describe how the data was analysed including any software used and its version.  
 > Include any data processing (detrending, smoothing, averaging, etc).  
 > Describe the methods used for period and phase analysis.
