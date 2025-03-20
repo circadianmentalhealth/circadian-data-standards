@@ -1,6 +1,6 @@
 # General Information Folder
 
-This folder is specifically designed to offer essential instructions, templates, and checklists for crafting effective README files. 
+This folder is specifically designed to offer essential instructions, templates, and checklists for writing effective README files. 
 The resources included aim to enhance your understanding and ability to create detailed and helpful README documentation.
 
 ## Optimal Use of This Folder
