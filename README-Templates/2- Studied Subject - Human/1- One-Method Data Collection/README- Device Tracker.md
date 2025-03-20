@@ -3,7 +3,7 @@
 # Essential (Core) Metadata Elements  
 > Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.
 
-## General information 
+## General Information 
 > You can refer to the Extended metadata (below), where you add more detailed information.
 
 ### Title
@@ -22,7 +22,7 @@
 ### DOI or Persistent Identifier 
   [Insert DOI or repository link if available]
 
-## Dataset overview 
+## Dataset Overview 
 ### Description
 > Briefly describe the dataset content including basic information on the methodology used. 
 ### File Formats
@@ -32,15 +32,6 @@
 > Make sure no data was lost or corrupted during conversion and test opening the converted files. Check that formulas and scripts still function after export.   
 > **If using uncommon or proprietary formats is unavoidable, list the data file formats and explain how to open the files.**
   
-### Data Dictionary
-> Describe the data elements
-
-| **Variable**     | **Description**                | **Type**     |  
-|------------------|--------------------------------|--------------|  
-| `participant_id` | Unique ID for participants     | Categorical  |  
-| `age`            | Age in years                   | Numeric      |
-
-
 ## Usage and Access 
 
 ### Licence
@@ -69,10 +60,11 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 ## General Information
 
 ### Summary/Abstract
-> Describe the purpose of the dataset and the devices used (e.g., "Actigraphy Data to Measure Sleep Patterns in Adults").
+> A summary of the content of the dataset. Here we expect a short description that helps to understand the content of the dataset without its thorough examination. 
 
-### Purpose/Objective
-> Explain how device data contributes to understanding circadian rhythms or mental health.
+### Purpose (Research hypothesis)
+> Describe the purpose of the study or intention for conducting a study that resulted in the dataset. 
+> For example, explain how device data contributes to understanding circadian rhythms or mental health (e.g., "Actigraphy Data to Measure Sleep Patterns in Adults").
 
 ### Dataset Version
 > Include verison number. E.g., v1.0
@@ -98,30 +90,42 @@ We acknowledge the contributions of [Institution, Participants, Collaborators]
   │   ├── Data_Dictionary.xlsx      
   │   ├── README.md  
 
-### Device Specifications
-  - Name, model, and manufacturer of the device.  
-  - Firmware or software versions used.
+### Data Dictionary
+> Describe the data elements
 
-### Participant Instructions
-> Describe how participants were instructed to use the device (e.g., "Wear on the non-dominant wrist for 14 days").
+| **Variable**     | **Description**                | **Type**     |  
+|------------------|--------------------------------|--------------|  
+| `participant_id` | Unique ID for participants     | Categorical  |  
+| `age`            | Age in years                   | Numeric      |
 
 ## Methodology
 
 ### Data Collection
-> Provide data collection information such as: 
-   - Information about patient recruitment criteria, number of participants, etc. 
-   - Explain device calibration processes.  
-   - Describe sampling intervals (e.g., "Data recorded every 30 seconds").
-   - Provide details on key variables (e.g., timestamps, light exposure).
-   - Provide the timing of any interventions. 
+> Provide data collection information such as:
 
-### Data Analysis
-> Include any software used. E.g., Python (pandas, numpy), R (tidyverse), MATLAB.  
-> Describe if analysis includes correlation tests, regression modeling, and clustering.  
+#### Device Specifications
+> Provide information on the device used such as:  
+  - Name, model, and manufacturer of the device.   
+  - Firmware or software versions used.  
+  - Explain device calibration processes.    
+    
+#### Participants Instructions  
+> Information about patient recruitment criteria, number of participants, etc.   
+> Describe how participants were instructed to use the device (e.g., "Wear on the non-dominant wrist for 14 days").  
+
+#### Experimental design
+> Some suggestions are described next. Feel free to include new sections or delete sections that are not applicable to your work.  
+   - Describe sampling intervals (e.g., "Data recorded every 30 seconds").  
+   - Provide details on key variables (e.g., timestamps, light exposure).  
+   - Provide the timing of any interventions.  
 
 ### Data Processing
 > Detail preprocessing steps for raw data.  
 > Describe derived metrics (e.g., total sleep time, activity counts).
+
+### Data Analysis
+> Include any software used. E.g., Python (pandas, numpy), R (tidyverse), MATLAB.    
+> Describe if analysis includes correlation tests, regression modeling, and clustering.    
     
 ### Ethical Considerations
 >  Highlight privacy safeguards for participant data.
@@ -132,4 +136,4 @@ We acknowledge the contributions of [Institution, Participants, Collaborators]
 > Include guidelines for interpreting device data (e.g., "Activity levels are measured in arbitrary units"), and for reproducing or reusing the data. 
 
 ### Citing the Dataset 
-  Provide citation details.
+> Provide citation details.
