@@ -1,22 +1,26 @@
 # README: Device Tracker Dataset
 
 # Essential (Core) Metadata Elements  
-> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.
+> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.  
+> You can refer to the "Extended metadata" template (below), where you add more detailed information.  
 
 ## General Information 
-> You can refer to the Extended metadata (below), where you add more detailed information.
 
 ### Title
-> Provide the dataset title (e.g., "Light Exposure and Sleep Activity Data").
+> A descriptive name given to the dataset. (e.g., "Light Exposure and Sleep Activity Data").
 
 ### Author(s)/Contributor(s)
-  [Name], [Affiliation], [Email]  
-  [Name], [Affiliation], [Email]  
+> List of dataset creators and contributors and their respective emails.
+> > Use `FirstName LastName` format. Each contributor name should be in a separate line which starts with `-`.  
+> See the example entry bellow:
+  - [Name], [Affiliation], [Email]  
+  - [Name], [Affiliation], [Email]* 
 
-  The Corresponding author is: [Author Name]
-
+*Corresponding author
+  
 ### Date of Creation/Release
   [YYYY-MM-DD]
+> A point in time associated with the lifecycle of the dataset.  
 > Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)
 
 ### DOI or Persistent Identifier 
@@ -60,11 +64,14 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 ## General Information
 
 ### Summary/Abstract
-> A short and contextualized description of the data, containing a brief overview of the the dataset purpose, methods and (if applicable) results. This section should help others to understand the content of the dataset without its thorough examination.  
+> A short and contextualized description of the data, containing a brief overview of the the dataset purpose, methods and (if applicable) results.  
+> The comprehensives details are to be recorded in sections below. This section should help others to understand the content of the dataset without its thorough examination.
+> This section can replace the "Description" section if information overlaps. 
 
 ### Purpose (Research hypothesis)
-> Describe the purpose of the study or intention for conducting a study that resulted in the dataset. 
-> For example, explain how device data contributes to understanding circadian rhythms or mental health (e.g., "Actigraphy Data to Measure Sleep Patterns in Adults").
+> Describe the purpose of the study or intention for conducting a study that resulted in the dataset.
+> Or the hypothesis that a study sets out to support (or disprove);
+> For example, explain how device data contributes to understanding circadian rhythms or mental health (e.g., "Actigraphy Data to understand if sleep patterns are disturbed in adults diagnosed with phobophobia").
 
 ### Dataset Version
 > Include verison number. E.g., v1.0
