@@ -1,10 +1,11 @@
 ## Where to Place the README File
-Place the README.md file in the root directory of your GitHub repository.
+Place the README.md or README.txt file in the root directory of your project, whether it's on GitHub or in another research data repository. 
+If prior to data sharing, place it alongside your dataset in your working directory.
 Ensure it is the first thing users see when they visit your repository.
 
 ---
 
-# Writing Language of README in Github
+# Writing Language of READMEs in markdown format
 
 ## Markdown Basics for Writing READMEs
 Markdown is a lightweight markup language that makes it easy to create structured and visually appealing README files on GitHub. Here’s how to use it:
@@ -85,7 +86,7 @@ So what between the [] is teh text that you want people to click to go to the ne
 ### 5. Tables
 Use tables to present data dictionaries or comparisons.
 
-if the writing wya is:
+if the writing way is:
 
 ![image](https://github.com/user-attachments/assets/fde9ff7e-e7a4-4809-9790-9d8b07ddcfeb)
 
@@ -134,7 +135,7 @@ the output will be:
 
 ---
 ### 9. Horizontal Lines
-Separate sections with horizontal lines, by writing this dash - three time. the horizontal line will appear as the one after this section
+Separate sections with horizontal lines, by writing this dash - three times. The horizontal line will appear as the one after this section
 
 ---
 
