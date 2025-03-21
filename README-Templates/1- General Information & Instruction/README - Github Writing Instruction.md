@@ -1,6 +1,6 @@
 ## Where to Place the README File
-Place the README.md or README.txt file in the root directory of your project, whether it's on GitHub or in another research data repository. 
-If prior to data sharing, place it alongside your dataset in your working directory.
+Place the README.md or README.txt file in the root directory of your project, whether it's on GitHub or in another research data repository.  
+If prior to data sharing, place it alongside your dataset in your working directory.  
 Ensure it is the first thing users see when they visit your repository.
 
 ---
@@ -8,7 +8,8 @@ Ensure it is the first thing users see when they visit your repository.
 # Writing Language of READMEs in markdown format
 
 ## Markdown Basics for Writing READMEs
-Markdown is a lightweight markup language that makes it easy to create structured and visually appealing README files on GitHub. Here’s how to use it:
+Markdown is a lightweight markup language that makes it easy to create structured and visually appealing README files on GitHub. Other platforms such as Zenodo can also render .md files in their file preview, diplaying the formatted content. 
+Here’s how to use it:
 
 ---
 
