@@ -1,4 +1,4 @@
-# README Checklist
+# README General template
 
 A well-structured README file helps others understand and utilize your dataset effectively. Use the following sections as a guide to create a clear and user-friendly README. Adjust as needed to fit your research requirements.
 
