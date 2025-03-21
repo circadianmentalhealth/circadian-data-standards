@@ -1,13 +1,13 @@
 # README template - Essential (Core) Metadata Elements
-> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.
+> Without these 7 pieces of information, it will be hard for anyone to locate and re-use your data.  
+> You can refer to the "Extended metadata" template (below), where you add more detailed information.  
 
 ## General information section
-> You can refer to the Extended metadata (below), where you add more detailed information.
 
 ### Title 
 > A descriptive name given to the dataset.
 
-### Creator
+### Author(s)/Contributor(s)
 > List of dataset creators and contributors and their respective emails.  
 > Use `FirstName LastName` format. Each contributor name should be in a separate line which starts with `-`.  
 > See the example entry bellow:
@@ -22,6 +22,8 @@ YYYY-MM-DD
 > A point in time associated with the lifecycle of the dataset.  
 > Used mainly to cross-reference with other resources like Lab Notebooks or raw data.  
 > Date must be expressed in ISO format: **YYYY-MM-DD** (e.g. 2023-03-25)
+
+## Dataset overview
 
 ### Description
 > Briefly describe the dataset content, including studied organism and basic methods used. 
@@ -64,10 +66,11 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 > Or the hypothesis that a study sets out to support (or disprove);
 
 ### Abstract
-> A summary of the content of the dataset.  
+> A summary of the content of the dataset and its context.  
 > Should include a brief information about the biological material, technique used and measurement/experimental conditions. 
 > The comprehensives details are to be recorded in sections below.
 > Here we expect a short description that helps to understand the content of the dataset without its thorough examination.
+> This section can replace the "Description" section if information overlaps. 
 
 ### Funding Information 
 This study was supported by [Funding Agency, Grant Number].
@@ -75,13 +78,14 @@ This study was supported by [Funding Agency, Grant Number].
 ### Acknowledgments
 > Add any acknowledgements
 
-### Dataset Folder/File Overview
-#### Data files list 
+## Dataset Overview
+
+### Data files list 
 
 > All folders/files in the dataset should be listed here. If a file naming schema is used, it is fine to explain it instead of listing all the files.  
 > Filenames should include extension (state the file formats used)
 
-#### Dataset structure
+### Dataset folder/ file structure
 
 > Preferably include a directory structure similar to the one shown in the example below. When a large number of files is present, listing only main folders is fine, as long as the content of the folder is described.
 
