@@ -60,7 +60,7 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 ## General Information
 
 ### Summary/Abstract
-> A summary of the content of the dataset. Here we expect a short description that helps to understand the content of the dataset without its thorough examination. 
+> A short and contextualized description of the data, containing a brief overview of the the dataset purpose, methods and (if applicable) results. This section should help others to understand the content of the dataset without its thorough examination.  
 
 ### Purpose (Research hypothesis)
 > Describe the purpose of the study or intention for conducting a study that resulted in the dataset. 
