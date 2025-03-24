@@ -74,9 +74,6 @@ This study was supported by [Funding Agency, Grant Number].
 ### Acknowledgments
 > Add any acknowledgements
 
-### Ethical statements 
-Include ethical approval number and the guidelines used to conduct the experiment. 
-
 ### Dataset Folder/File Overview
 #### Data files list 
 
@@ -100,6 +97,8 @@ Include ethical approval number and the guidelines used to conduct the experimen
  |  |--`SCN_treatment_S03`    
       
 ## Methodological information 
+### Ethical statements 
+Include ethical approval number and the guidelines used to conduct the experiment. 
 
 ### Biosample description
 > Description of biological entity that was monitored / measured/ experimented on.    
