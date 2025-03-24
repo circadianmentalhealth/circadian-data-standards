@@ -39,9 +39,8 @@ These README templates were adapted/generated from the following documents/resou
 
   UKRI. Making your research data open. Retrieved 5 March 2025, from https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/
 
-  ## Funding 
-  This project is funded by the [Circadian mental health network](https://www.circadianmentalhealth.org/)
-
   Zieliński, T., Hodge, J. J. L., & Millar, A. J. (2023). Keep It Simple: Using README Files to Advance Standardization in Chronobiology. Clocks & Sleep, 5(3), 499–506. https://doi.org/10.3390/clockssleep5030033
 
+## Funding 
+This project is funded by the [Circadian mental health network](https://www.circadianmentalhealth.org/)
 
