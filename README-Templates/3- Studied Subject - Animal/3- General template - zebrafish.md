@@ -76,8 +76,6 @@ This study was supported by [Funding Agency, Grant Number].
 ### Acknowledgments
 > Add any acknowledgements
 
-### Ethical statements 
-> Include ethical approval number and the guidelines used to conduct the experiment. 
 
 ### Dataset Folder/File Overview
 #### Data files list 
@@ -104,6 +102,9 @@ This study was supported by [Funding Agency, Grant Number].
  > In this example image data are represented by folders and image files are ommited for clarification due the large number of individual files. 
       
 ## Methodological information section
+
+### Ethical statements 
+> Include ethical approval number and the guidelines used to conduct the experiment. 
 
 ### Biosample 
 > Description of biological entity that was monitored / measured/ experimented on.    
