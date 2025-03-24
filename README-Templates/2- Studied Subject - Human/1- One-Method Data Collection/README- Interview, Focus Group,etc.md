@@ -66,6 +66,7 @@ You are free to copy, modify, distribute, and use the data without restrictions.
 ---
 
 # 2- Extended Metadata Elements
+> Add this information to help others to understand, re-use and cite your data correctly.
 
 ## General Information
 
